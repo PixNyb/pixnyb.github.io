@@ -1,0 +1,32 @@
+projects:
+  - title: FirstOrDefault
+    subtitle: "'s-Hertogenbosch"
+    description: |
+      Together with Sven van der Zwet, I am the owner of FirstOrDefault, a dynamic and innovative development company based in 's-Hertogenbosch. At FirstOrDefault, we focus on delivering custom-made (web) applications and digital solutions that meet the unique needs of our clients. With our combined expertise in full-stack development, design, and project management, we strive to create high-quality and scalable software. Our goal is to help companies work more efficiently and achieve their digital goals through innovative technologies and customized solutions.
+    image:
+      src: /assets/images/firstordefault.png
+      alt: The logo of FirstOrDefault
+      class: cover full
+    link:
+      url: http://firstordefault.nl
+      text: firstordefault.nl
+  - title: BJoC
+    subtitle: <b>Hoog Catharijne</b>, Utrecht
+    description: |
+      Beauty and Joy of Computing (BJoC) is an inspiring teaching method for high school students, introducing them to the world of computer science by combining both theory and practice. My contribution to this project consisted of translating the English teaching materials into Dutch, making this valuable method accessible to Dutch students and providing them with an engaging introduction to computer science.
+    image:
+      src: https://bjoc.nl/afb/BJOC-NL-logo.png
+      class: contain full
+    link:
+      url: http://bjoc.nl
+      text: bjoc.nl
+
+achievements:
+  - title: Cisco CCNA
+    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2018
+    description: |
+      The Cisco Certified Network Associate (CCNA) certification is a valued qualification that demonstrates a professional's ability to install, configure, manage, and troubleshoot medium-sized routed and switched networks. This certification covers essential network concepts, including IP connectivity, network access, IP services, security fundamentals, and automation and programmability. Earning a CCNA shows a strong foundation in networking, making it a valuable asset for IT professionals looking to advance their careers in network management and administration.
+  - title: HAVO (NT & NG)
+    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2019
+    description: |
+      I obtained my HAVO diploma at Ds. Pierson College in 's-Hertogenbosch, with a focus on science subjects. My course package included physics, chemistry, biology, computer science, and mathematics A. This combination of subjects has provided me with a solid foundation in the sciences and technology, allowing me to develop analytical thinking and problem-solving skills. This knowledge and skills have well prepared me for my further studies in computer science and my career as a developer.

@@ -38,7 +38,7 @@
           {% for item in page.translations %}
             <li>
               <a href="{{ item.url | relative_url }}" class="{% if item.url == page.url %}active{% endif %}">
-                {{ site.data.nl.languages[item.lang] }}
+                {{ site.data.en.languages[item.lang] }}
               </a>
             </li>
           {% endfor %}
