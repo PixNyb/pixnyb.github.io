@@ -3,3 +3,21 @@ title: "Roël Couwenberg"
 exclude: [.trunk]
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+
+default_image_format: png
+image_formats:
+  - ext: jpg
+    type: image/jpeg
+  - ext: webp
+    type: image/webp
+  - ext: avif
+    type: image/avif
+  - ext: png
+    type: image/png
+  - ext: gif
+    type: image/gif
+  - ext: svg
+    type: image/svg+xml
+  - ext: bmp
+    type: image/bmp

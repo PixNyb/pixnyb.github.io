@@ -1,0 +1,17 @@
+<div class="card">
+    {% if include.image %}
+        {% include image src=include.image.src alt=include.image.alt class=include.image.class height="12rem" %}
+    {% endif %}
+    <h3>
+        {{ include.title }}
+    </h3>
+    <span class="text-small">
+        {{ include.subtitle }}
+    </span>
+    <p>
+        {{ include.content }}
+    </p>
+    {% if include.link_url && include.link_text%}
+        <a href="{{ include.link_url }}">{{ include.link_text }}</a>
+    {% endif %}
+</div>

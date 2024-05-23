@@ -65,16 +65,33 @@ $variable-fonts: (
     &[id] {
       cursor: pointer;
 
-      &::after {
-        content: "#";
+      .link-icon {
         margin-left: 0.5rem;
         font-size: 0.8rem;
+        width: 1.2em;
+        height: 1em;
         color: var(--clr-link);
         transition: color 0.3s;
+        vertical-align: super;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-flow: column;
+        overflow: hidden;
+
+        svg {
+          transition: transform 0.3s, color 0.3s;
+          color: var(--clr-link);
+        }
       }
 
-      &.link-copied::after {
-        color: var(--clr-good);
+      &.link-copied {
+        .link-icon {
+          svg {
+            transform: translateY(-100%);
+            color: var(--clr-good);
+          }
+        }
       }
     }
   }

@@ -63,7 +63,10 @@
               {% if title == "" %}
                 {% continue %}
               {% endif %}
-              {% assign id = title | slugify %}
+              {% capture id %}
+                {{ heading | split: 'id="' | last | split: '"' | first }}
+              {% endcapture %}
+              {% assign id = id | strip %}
               <a class="toc-link" style="margin-left: {{ level  }}rem" href="#{{ id }}">{{ title }}</a>
             {% endfor %}
           </nav>

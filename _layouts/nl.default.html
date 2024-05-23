@@ -53,7 +53,7 @@
       {% if content contains "<h2" or content contains "<h3" or content contains "<h4" %}
       <aside>
         <div class="content">
-          <h2>Table of Contents</h2>
+          <h2>Inhoudsopgave</h2>
           <nav>
             {% assign all_headings = content | split: '<h' %}
             {% assign headings = all_headings | slice: 1, all_headings.size %}
@@ -63,7 +63,10 @@
               {% if title == "" %}
                 {% continue %}
               {% endif %}
-              {% assign id = title | slugify %}
+              {% capture id %}
+                {{ heading | split: 'id="' | last | split: '"' | first }}
+              {% endcapture %}
+              {% assign id = id | strip %}
               <a class="toc-link" style="margin-left: {{ level  }}rem" href="#{{ id }}">{{ title }}</a>
             {% endfor %}
           </nav>

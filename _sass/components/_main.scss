@@ -5,6 +5,7 @@ main {
   display: flex;
   flex-flow: row nowrap;
   gap: 2rem;
+  flex: 1;
 
   .content {
     flex: 3;
@@ -26,7 +27,6 @@ main {
   
         a {
           text-decoration: none;
-          transition: color .3s ease;
 
           &.active {
             color: var(--clr-text);

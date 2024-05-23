@@ -1,0 +1,20 @@
+.card-holder {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+
+    .card {
+        display: inline-block;
+        background-color: var(--clr-accent);
+        padding: 2rem;
+        flex: 1 1 300px;
+
+        h3:first-child {
+            margin-top: 0;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

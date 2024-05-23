@@ -1,0 +1,14 @@
+$scroller-height: 2em;
+
+.scroller {
+  display: inline-block;
+  height: $scroller-height;
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: $scroller-height;
+    transition: transform 0.3s;
+  }
+}

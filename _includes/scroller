@@ -1,0 +1,5 @@
+<div class="scroller">
+  <div class="scroller__content">
+    {{ include.content }}
+  </div>
+</div>

@@ -1,0 +1,32 @@
+projects:
+  - title: FirstOrDefault
+    subtitle: "'s-Hertogenbosch"
+    description: |
+      Samen met Sven van der Zwet ben ik eigenaar van FirstOrDefault, een dynamisch en innovatief ontwikkelbedrijf gevestigd in 's-Hertogenbosch. Bij FirstOrDefault richten we ons op het leveren van op maat gemaakte (web)applicaties en digitale oplossingen die voldoen aan de unieke behoeften van onze klanten. Met onze gecombineerde expertise in full-stack ontwikkeling, ontwerp en projectmanagement, streven we ernaar om hoogwaardige en schaalbare software te creëren. Ons doel is om bedrijven te helpen efficiënter te werken en hun digitale doelen te bereiken door middel van innovatieve technologieën en op maat gemaakte oplossingen.
+    image:
+      src: /assets/images/firstordefault.png
+      alt: Het logo van FirstOrDefault
+      class: cover full
+    link:
+      url: http://firstordefault.nl
+      text: firstordefault.nl
+  - title: BJoC
+    subtitle: <b>Hoog Catharijne</b>, Utrecht
+    description: |
+      Beauty and Joy of Computing (BJoC) is een inspirerende lesmethode voor middelbare scholieren, die hen introduceert in de wereld van informatica door zowel theorie als praktijk te combineren. Mijn bijdrage aan dit project bestond uit het vertalen van de Engelstalige lesmaterialen naar het Nederlands, waardoor deze waardevolle methode toegankelijk werd voor Nederlandse scholieren en hen een boeiende introductie tot informatica biedt.
+    image:
+      src: https://bjoc.nl/afb/BJOC-NL-logo.png
+      class: contain full
+    link:
+      url: http://bjoc.nl
+      text: bjoc.nl
+
+achievements:
+  - title: Cisco CCNA
+    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2018
+    description: |
+      De Cisco Certified Network Associate (CCNA) certificering is een gewaardeerde kwalificatie die aantoont dat een professional in staat is om middelgrote routed en switched netwerken te installeren, configureren, beheren en problemen op te lossen. Deze certificering dekt essentiële netwerkconcepten, waaronder IP-connectiviteit, netwerktoegang, IP-diensten, beveiligingsfundamentals en automatisering en programmeerbaarheid. Het behalen van een CCNA toont een sterke basis in netwerken aan, wat het een waardevolle troef maakt voor IT-professionals die hun carrière in netwerkbeheer en -administratie willen bevorderen.
+  - title: HAVO (NT & NG)
+    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2019
+    description: |
+      Ik heb mijn HAVO-diploma behaald aan het Ds. Pierson College in 's-Hertogenbosch, met een focus op exacte vakken. Mijn vakkenpakket bestond uit natuurkunde, scheikunde, biologie, informatica en wiskunde A. Deze combinatie van vakken heeft me een solide basis gegeven in de exacte wetenschappen en technologie, waardoor ik analytisch denkvermogen en probleemoplossende vaardigheden heb ontwikkeld. Deze kennis en vaardigheden hebben mij goed voorbereid op mijn verdere studie in informatica en mijn carrière als ontwikkelaar.

@@ -1,0 +1,22 @@
+<picture class="{{ include.class }}" {% if include.height %}style="height: {{ include.height }};"{% endif %}>
+    {% assign is_external = include.src | contains "://" %}
+    {% if is_external %}
+        <img src="{{ include.src }}" alt="{{ include.alt }}">
+    {% else %}
+        {% assign src = include.src | split: '.' | first %}
+        {% for format in site.image_formats %}
+            {% assign exists = false %}
+            {% assign format_src = src | append: "." | append: format.ext %}
+            {% for static_file in site.static_files %}
+                {% if static_file.path == format_src %}
+                    {% assign exists = true %}
+                {% endif %}
+            {% endfor %}
+            {% unless exists %}
+                {% continue %}
+            {% endunless %}
+            <source srcset="{{ format_src | relative_url }}" type="{{ format.type }}">
+        {% endfor %}
+        <img src="{{ src | append: "." | append: site.default_image_format | relative_url }}" alt="{{ include.alt }}">
+    {% endif %}
+</picture>
