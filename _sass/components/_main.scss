@@ -1,0 +1,34 @@
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 12rem auto 6rem auto;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2rem;
+
+  .content {
+    flex: 3;
+  }
+
+  aside {
+    flex: 1;
+    border-left: 1rem solid var(--clr-accent);
+    padding-left: 2rem;
+    position: sticky;
+    top: 12rem;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 1rem;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+$clr-white: #fff;
+$clr-black: #000;
+$clr-gray: #f8f8f8;
+$clr-background: $clr-white;
+$clr-accent: $clr-gray;
+$clr-text: $clr-black;
+$clr-link: #6b6b6b;
+$clr-good: #77dd77;
+$clr-bad: #dd7777;
+
+$dm-clr-white: #d0d0d0;
+$dm-clr-black: #1d1d1d;
+$dm-clr-gray: #272727;
+$dm-clr-background: $dm-clr-black;
+$dm-clr-accent: $dm-clr-gray;
+$dm-clr-text: $dm-clr-white;
+$dm-clr-link: #a1a1a1;
+$dm-clr-good: #59c359;
+$dm-clr-bad: #c35959;
+
+:root {
+  --clr-white: #{$clr-white};
+  --clr-black: #{$clr-black};
+  --clr-gray: #{$clr-gray};
+  --clr-background: #{$clr-background};
+  --clr-accent: #{$clr-accent};
+  --clr-text: #{$clr-text};
+  --clr-link: #{$clr-link};
+  --clr-good: #{$clr-good};
+  --clr-bad: #{$clr-bad};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-white: #{$dm-clr-white};
+    --clr-black: #{$dm-clr-black};
+    --clr-gray: #{$dm-clr-gray};
+    --clr-background: #{$dm-clr-background};
+    --clr-accent: #{$dm-clr-accent};
+    --clr-text: #{$dm-clr-text};
+    --clr-link: #{$dm-clr-link};
+    --clr-good: #{$dm-clr-good};
+    --clr-bad: #{$dm-clr-bad};
+  }
+}

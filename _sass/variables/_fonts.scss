@@ -1,0 +1,96 @@
+$static-fonts: (
+  "Montserrat": (
+    "Black": "900",
+    "BlackItalic": "900",
+    "Bold": "700",
+    "BoldItalic": "700",
+    "ExtraBold": "800",
+    "ExtraBoldItalic": "800",
+    "ExtraLight": "200",
+    "ExtraLightItalic": "200",
+    "Italic": "400",
+    "Light": "300",
+    "LightItalic": "300",
+    "Medium": "500",
+    "MediumItalic": "500",
+    "Regular": "400",
+    "SemiBold": "600",
+    "SemiBoldItalic": "600",
+    "Thin": "100",
+    "ThinItalic": "100",
+  ),
+);
+
+$variable-fonts: (
+  "Montserrat": (
+    "Italic": "Italic-VariableFont_wght",
+    "Regular": "VariableFont_wght",
+  ),
+);
+
+@each $font, $weights in $static-fonts {
+  @each $weight, $value in $weights {
+    // Store whether the font is italic or not
+    $is-italic: str-index($weight, "Italic") != null;
+    @font-face {
+      font-family: "#{$font}";
+      font-weight: #{$value};
+      // If the font is italic, set the font-style to italic
+      @if $is-italic {
+        font-style: italic;
+      }
+      src: url("/assets/fonts/#{$font}/static/#{$font}-#{$weight}.ttf")
+        format("truetype");
+    }
+  }
+}
+
+@each $font, $weights in $variable-fonts {
+  @each $weight, $value in $weights {
+    @font-face {
+      font-family: "#{$font} Variable";
+      src: url("/assets/fonts/#{$font}/#{$font}-#{$value}.ttf")
+        format("truetype");
+    }
+  }
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 2rem - 0.2rem * $i;
+    font-family: "Montserrat", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+
+    &[id] {
+      cursor: pointer;
+
+      &::after {
+        content: "#";
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        color: var(--clr-link);
+        transition: color 0.3s;
+      }
+
+      &.link-copied::after {
+        color: var(--clr-good);
+      }
+    }
+  }
+}
+
+:root {
+  --font-family: "Montserrat", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-variable: "Montserrat Variable", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+sup {
+  font-size: 0.6rem;
+}

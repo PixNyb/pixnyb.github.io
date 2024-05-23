@@ -1,0 +1,31 @@
+header_nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects & Achievements
+    url: /projects/
+  - title: Blog
+    url: /blog/
+
+footer_nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects & Achievements
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Privacy Policy
+    url: /privacy/
+  - title: Sitemap
+    url: /sitemap.xml
+
+social_nav:
+  - title: GitHub
+    url: https://github.com/pixnyb
+    icon: fab fa-github
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/roël-couwenberg/
+    icon: fab fa-linkedin

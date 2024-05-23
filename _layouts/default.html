@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script defer src="{{ "/assets/thirdparty/fontawesome/js/brands.min.js" | relative_url }}"></script>
+    <script defer src="{{ "/assets/thirdparty/fontawesome/js/fontawesome.min.js" | relative_url }}"></script>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <source srcset="{{ "/assets/images/logo-dm.svg" | relative_url }}" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+        <source srcset="{{ "/assets/images/logo-dm.jpg" | relative_url }}" type="image/jpeg" media="(prefers-color-scheme: dark)">
+        <source srcset="{{ "/assets/images/logo-dm.png" | relative_url }}" alt="{{ site.title }}" media="(prefers-color-scheme: dark)">
+        <source srcset="{{ "/assets/images/logo.svg" | relative_url }}" type="image/svg+xml">
+        <source srcset="{{ "/assets/images/logo.jpg" | relative_url }}" type="image/jpeg">
+        <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="{{ site.title }}">
+      </picture>
+      <nav>
+        <ul>
+          {% for item in site.data.navigation.header_nav %}
+            <li>
+              <a href="{{ item.url | relative_url }}">
+                {% if item.icon %}
+                  <i class="{{ item.icon }}"></i>
+                {% endif %}
+                {{ item.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        {{ content }}
+      </div>
+      <!-- If the page has any headings, add a sidebar -->
+      {% if content contains "<h2" %}
+        <aside>
+          <nav>
+            <h2>Table of Contents</h2>
+            <ul>
+              {% assign headings = content | split: "<h2" %}
+              {% for heading in headings %}
+                {% assign title = heading | split: "</h2>" | first | split: ">" | last | strip %}
+                {% if title == "" %}
+                  {% continue %}
+                {% endif %}
+                {% assign id = title | slugify %}
+                <li>
+                  <a href="#{{ id }}">{{ title }} <sup>#{{ id }}</sup></a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </aside>
+      {% endif %}
+    </main>
+    <footer>
+      <div>
+        <p>&copy; {{ site.title }} {{ "now" | date: "%Y" }}</p>
+        <nav>
+          <ul>
+            {% for item in site.data.navigation.social_nav %}
+              <li>
+                <a href="{{ item.url | relative_url }}">
+                  {% if item.icon %}
+                    <i class="{{ item.icon }}"></i>
+                  {% endif %}
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <p class="text-small">Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a></p>
+        <nav>
+          <ul>
+            {% for item in site.data.navigation.footer_nav %}
+              <li>
+                <a href="{{ item.url | relative_url }}">
+                  {% if item.icon %}
+                    <i class="{{ item.icon }}"></i>
+                  {% endif %}
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="{{ "/assets/javascript/app.js" | relative_url }}"></script>
+  </body>
+</html>

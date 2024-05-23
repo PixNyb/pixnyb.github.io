@@ -1,0 +1,39 @@
+@forward "variables";
+@forward "components";
+
+body {
+  background: var(--clr-background);
+  color: var(--clr-text);
+  font-family: var(--font-family);
+}
+
+p,
+li {
+  line-height: 1.625;
+}
+
+ul {
+  list-style: square;
+
+  & > li::marker {
+    font-size: 1.8rem;
+    color: var(--clr-accent);
+  }
+}
+
+b {
+  font-weight: 600;
+}
+
+a {
+  font-family: var(--font-family-variable);
+  color: var(--clr-link);
+  text-decoration: underline;
+  text-decoration-color: var(--clr-link);
+  font-variation-settings: "wght" 500;
+  transition: font-variation-settings 0.3s;
+
+  &:hover {
+    font-variation-settings: "wght" 700;
+  }
+}
