@@ -19,7 +19,7 @@
         <source srcset="{{ "/assets/images/logo.jpg" | relative_url }}" type="image/jpeg">
         <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="{{ site.title }}">
       </picture>
-      <nav>
+      <nav class="desktop">
         <ul>
           {% for item in site.data.en.navigation.header_nav %}
             <li>
@@ -33,7 +33,35 @@
           {% endfor %}
         </ul>
       </nav>
-      <nav class="nav-right">
+      <nav class="nav-right desktop">
+        <ul>
+          {% for item in page.translations %}
+            <li>
+              <a href="{{ item.url | relative_url }}" class="{% if item.url == page.url %}active{% endif %}">
+                {{ site.data.en.languages[item.lang] }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <button id="menu-toggle" data-toggles="mobile-menu">
+        <i class="fas fa-bars inactive"></i>
+        <i class="fas fa-times active"></i>
+      </button>
+      <nav class="mobile" id="mobile-menu">
+        <ul>
+          {% for item in site.data.en.navigation.header_nav %}
+            <li>
+              <a href="{{ item.url | relative_url }}">
+                {% if item.icon %}
+                  <i class="{{ item.icon }}"></i>
+                {% endif %}
+                {{ item.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        <hr/>
         <ul>
           {% for item in page.translations %}
             <li>

@@ -145,6 +145,17 @@ function scrollScrollers() {
   });
 }
 
+// Add the click listener to the #menu-button
+function toggleMenu() {
+  const menuButton = document.getElementById('menu-toggle');
+  const menu = document.getElementById(menuButton.getAttribute('data-toggles'));
+
+  menuButton.addEventListener('click', () => {
+    menu.classList.toggle('open');
+    menuButton.classList.toggle('active');
+  });
+}
+
 // Call the functions when the DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
   copyLinkToClipboard();
@@ -152,4 +163,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setHeadingOffset();
   appendLinkIcons();
   scrollScrollers();
+  toggleMenu();
 });

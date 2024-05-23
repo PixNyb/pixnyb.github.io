@@ -34,6 +34,13 @@ b {
   font-weight: 600;
 }
 
+hr {
+  border: none;
+  border-top: 1rem solid var(--clr-accent);
+  width: 100%;
+  margin: 1rem 0;
+}
+
 a {
   font-family: var(--font-family-variable);
   color: var(--clr-link);
@@ -130,5 +137,18 @@ picture {
   &.sixth {
     width: 16.666%;
     max-width: 16.666%;
+  }
+
+  @media screen and (max-width: 768px) {
+    &.half,
+    &.third,
+    &.quarter,
+    &.fifth,
+    &.sixth {
+      width: unset;
+      max-width: unset;
+      display: inline-block;
+      margin: 1rem 0;
+    }
   }
 }
