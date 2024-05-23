@@ -1,6 +1,11 @@
 ---
-layout: default
+layout: nl.default
 title: "Home"
+lang: "nl"
+redirect_from: /
+translations:
+  - url: /en
+    lang: en
 ---
 
 # Roël Couwenberg

@@ -26,6 +26,10 @@ header {
     justify-content: space-between;
     width: 100%;
 
+    &.nav-right {
+      justify-content: flex-end;
+    }
+
     ul {
       display: flex;
       list-style: none;

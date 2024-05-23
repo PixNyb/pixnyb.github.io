@@ -1,0 +1,23 @@
+header_nav:
+  - title: Home
+    url: /nl
+  - title: Over
+    url: /nl/over
+  - title: Projecten & Prestaties
+    url: /nl/projecten
+  - title: Blog
+    url: /nl/blog
+
+footer_nav:
+  - title: Privacybeleid
+    url: /nl/privacy
+  - title: Sitemap
+    url: /nl/sitemap.xml
+
+social_nav:
+  - title: GitHub
+    url: https://github.com/pixnyb
+    icon: fab fa-github
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/roël-couwenberg/
+    icon: fab fa-linkedin

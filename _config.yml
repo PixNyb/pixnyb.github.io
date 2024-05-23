@@ -1,4 +1,5 @@
-url: "https://roelc.me" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-title: "Roël Couwenberg" # the name of your site, e.g. ACME Corp.
+url: "https://portfolio.roelc.me"
+title: "Roël Couwenberg"
 exclude: [.trunk]
+plugins:
+  - jekyll-redirect-from

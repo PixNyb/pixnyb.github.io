@@ -14,19 +14,23 @@ main {
     flex: 1;
     border-left: 1rem solid var(--clr-accent);
     padding-left: 2rem;
-    position: sticky;
-    top: 12rem;
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    .content {
+      position: sticky;
+      top: 12rem;
 
-      li {
-        margin-bottom: 1rem;
-
+      nav {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 0.6rem;
+  
         a {
           text-decoration: none;
+          transition: color .3s ease;
+
+          &.active {
+            color: var(--clr-text);
+          }
         }
       }
     }
