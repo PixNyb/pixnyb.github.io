@@ -1,8 +1,14 @@
 url: https://roelc.me
 title: Roël Couwenberg
 exclude: [.trunk]
+permalink: pretty
 plugins:
   - jekyll-sitemap
+
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
 
 default_image_format: png
 image_formats:

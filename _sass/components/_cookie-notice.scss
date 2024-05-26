@@ -9,6 +9,8 @@
     max-width: min(100%, 600px);
     opacity: 0.4;
     transition: opacity 0.3s;
+    max-height: 50%;
+    overflow-y: auto;
 
     &:hover {
         opacity: 1;
@@ -16,5 +18,9 @@
 
     &.hidden {
         opacity: 0;
+    }
+
+    @media (hover: none) {
+        opacity: 1;
     }
 }

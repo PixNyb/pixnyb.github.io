@@ -8,6 +8,8 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: var(--clr-background);
   color: var(--clr-text);
   font-family: var(--font-family);
@@ -35,7 +37,7 @@ ul {
       height: 1rem;
       position: absolute;
       right: calc(100% + 1rem);
-      top: 50%;
+      top: calc(1.625rem / 2);
       transform: translateY(-50%);
     }
   }
