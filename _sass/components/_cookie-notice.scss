@@ -1,0 +1,20 @@
+@use "card";
+
+.cookie-notice {
+    @extend .card;
+    background-color: var(--clr-accent);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-width: min(100%, 600px);
+    opacity: 0.4;
+    transition: opacity 0.3s;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &.hidden {
+        opacity: 0;
+    }
+}

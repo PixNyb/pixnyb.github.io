@@ -88,7 +88,7 @@ function isExternalLink(link) {
 function getLinkType(link) {
   url = link.getAttribute('href');
   type = url.split(':')[0];
-  return type;
+  return type;  
 }
 
 // Function to create an icon element
@@ -100,6 +100,10 @@ function createLinkIcon(type) {
       break;
     case "tel":
       iconId = "phone";
+      break;
+    case "geo":
+    case "maps":
+      iconId = "globe";
       break;
     default:
       break;
@@ -156,12 +160,109 @@ function toggleMenu() {
   });
 }
 
+// Change geo: links to maps: on apple devices
+function adaptToAgent() {
+  let parsedNavigator = 'unknown';
+  const lowercaseAgent = window.navigator.userAgent.toLowerCase();
+
+  if (
+    lowercaseAgent.includes('mac')
+    || lowercaseAgent.includes('iphone')
+    || lowercaseAgent.includes('ipad')
+  ) 
+    parsedNavigator = 'apple';
+
+  switch (parsedNavigator) {
+    case 'apple':
+      convertLinkProtocol('geo:', 'maps:');
+      break;
+    default:
+      convertLinkProtocol('maps:', 'geo:');
+      break;
+  }
+}
+
+function convertLinkProtocol(from, to) {
+  const links = document.querySelectorAll(`[href^="${from}"]`);
+  console.log(links);
+  const regex = new RegExp(`^${from}`);
+  links.forEach(link => {
+    link.setAttribute('href', link.getAttribute('href').replace(regex, to));
+    console.log(link.getAttribute('href'));
+  });
+}
+
+// If the cookies aren't set, prompt the user
+function promptCookieNotice() {
+  const cookieSelection = getCookie('cookie-consent');
+
+  if (cookieSelection === null || cookieSelection === undefined) {
+    const cookieNoticeTemplate = document.getElementById('cookie-notice');
+    // The cookieNotice element is a template
+    const cookieNotice = document.createElement('div');
+    cookieNotice.classList.add('cookie-notice');
+    cookieNotice.innerHTML = cookieNoticeTemplate.innerHTML;
+    document.body.appendChild(cookieNotice);
+
+    const acceptButton = document.getElementById('cookie-notice-accept');
+    const rejectButton = document.getElementById('cookie-notice-reject');
+
+    acceptButton.addEventListener('click', () => {
+      const date = new Date();
+      date.setFullYear(date.getFullYear() + 10);
+      document.cookie = `cookie-consent=true; expires=${date.toUTCString()}; path=/`;
+      cookieNotice.classList.add('hidden');
+      setTimeout(() => {
+        cookieNotice.remove();
+      }, 1000);
+    });
+    
+    rejectButton.addEventListener('click', () => {
+      const date = new Date();
+      date.setFullYear(date.getFullYear() + 10);
+      document.cookie = `cookie-consent=false; expires=${date.toUTCString()}; path=/`;
+      cookieNotice.classList.add('hidden');
+      setTimeout(() => {
+        cookieNotice.remove();
+      }, 1000);
+    });
+  }
+
+  if (cookieSelection === 'true') {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2MRW7WDSPF');
+  }
+}
+
+function getCookie(name) {
+  var dc = document.cookie;
+  var prefix = name + "=";
+  var begin = dc.indexOf("; " + prefix);
+  if (begin == -1) {
+      begin = dc.indexOf(prefix);
+      if (begin != 0) return null;
+  }
+  else
+  {
+      begin += 2;
+      var end = document.cookie.indexOf(";", begin);
+      if (end == -1) {
+      end = dc.length;
+      }
+  }
+  return decodeURI(dc.substring(begin + prefix.length, end));
+}
+
 // Call the functions when the DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
   copyLinkToClipboard();
   highlightActiveHeading();
   setHeadingOffset();
+  adaptToAgent();
   appendLinkIcons();
   scrollScrollers();
   toggleMenu();
+  promptCookieNotice();
 });

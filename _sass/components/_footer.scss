@@ -37,12 +37,16 @@ footer {
 
     ul {
       display: inline-flex;
-      list-style: none;
       margin: 0;
       padding: 0;
 
       li {
         margin-right: 1rem;
+        
+        &::before {
+          display: none;
+        }
+
         a {
           font-family: var(--font-family-variable);
           font-size: 0.8rem;

@@ -1,0 +1,5 @@
+<div class="card-holder">
+    {% for item in include.source %}
+        {% include card.liquid title=item.title subtitle=item.subtitle image=item.image content=item.description link_url=item.link.url link_text=item.link.text %}
+    {% endfor %}
+</div>

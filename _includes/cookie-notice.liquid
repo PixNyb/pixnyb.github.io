@@ -1,0 +1,16 @@
+<template id="cookie-notice">
+    <h3>
+        {{ site.data.[page.lang].words.cookies }}
+    </h3>
+    <p>
+        {{ site.data.[page.lang].words.cookies_description }}
+    </p>
+    <div class="form-tools">
+        <button id="cookie-notice-reject">
+            {{ site.data.[page.lang].words.reject }}
+        </button>
+        <button id="cookie-notice-accept" style="flex: 1;">
+            {{ site.data.[page.lang].words.accept }}
+        </button>
+    </div>
+</template>

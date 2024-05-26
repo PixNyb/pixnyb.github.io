@@ -1,0 +1,86 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script defer src="{{ "/assets/thirdparty/fontawesome/js/solid.min.js" | relative_url }}"></script>
+    <script defer src="{{ "/assets/thirdparty/fontawesome/js/brands.min.js" | relative_url }}"></script>
+    <script defer src="{{ "/assets/thirdparty/fontawesome/js/fontawesome.min.js" | relative_url }}"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/favicon/dark/apple-touch-icon.png" | relative_url }}" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon/dark/favicon-32x32.png" | relative_url }}" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon/dark/favicon-16x16.png" | relative_url }}" media="(prefers-color-scheme: dark)">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/favicon/light/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon/light/favicon-32x32.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon/light/favicon-16x16.png" | relative_url }}">
+    <link rel="manifest" href="{{ "/assets/images/favicon/light/site.webmanifest" | relative_url }}">
+    <link rel="mask-icon" href="{{ "/assets/images/favicon/light/safari-pinned-tab.svg" | relative_url }}" color="#000000">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon/light/favicon.ico" | relative_url }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/assets/images/favicon/light/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ site.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}">
+    {% if page.seo.canonical %}
+        <link rel="canonical" href="{{ site.url }}{{ page.seo.canonical }}">
+        <meta property="og:url" content="{{ site.url }}{{ page.seo.canonical }}">
+        <meta name="twitter:url" content="{{ site.url }}{{ page.seo.canonical }}">
+    {% else %}
+        <link rel="canonical" href="{{ page.url | relative_url }}">
+        <meta property="og:url" content="{{ page.url | relative_url }}">
+        <meta name="twitter:url" content="{{ page.url | relative_url }}">
+    {% endif %}
+
+    {% if page.seo.title %}
+        <meta property="og:title" content="{{ page.seo.title }}">
+        <meta name="twitter:title" content="{{ page.seo.title }}">
+    {% else %}
+        <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
+        <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+    {% endif %}
+
+    {% if page.seo.description %}
+        <meta name="description" content="{{ page.seo.description }}">
+        <meta property="og:description" content="{{ page.seo.description }}">
+        <meta name="twitter:description" content="{{ page.seo.description }}">
+    {% else %}
+        {% if site.seo.[page.lang].description %}
+            <meta name="description" content="{{ site.seo.[page.lang].description }}">
+            <meta property="og:description" content="{{ site.seo.[page.lang].description }}">
+            <meta name="twitter:description" content="{{ site.seo.[page.lang].description }}">
+        {% endif %}
+    {% endif %}
+
+    {% if page.seo.image %}
+        <meta property="og:image" content="{{ page.seo.image | relative_url }}">
+        <meta name="twitter:image" content="{{ page.seo.image | relative_url }}">
+    {% else %}
+        {% if site.seo.[page.lang].image %}
+            <meta property="og:image" content="{{ site.seo.[page.lang].image | relative_url }}">
+            <meta name="twitter:image" content="{{ site.seo.[page.lang].image | relative_url }}">
+        {% endif %}
+    {% endif %}
+
+    {% if page.seo.type %}
+        <meta property="og:type" content="{{ page.seo.type }}">
+    {% else %}
+        <meta property="og:type" content="website">
+    {% endif %}
+
+    {% if page.seo.author %}
+        <meta name="author" content="{{ page.seo.author }}">
+        <
+    {% else %}
+        {% if site.seo.[page.lang].author %}
+            <meta name="author" content="{{ site.seo.[page.lang].author }}">
+        {% endif %}
+    {% endif %}
+
+    {% if page.seo.keywords %}
+        <meta name="keywords" content="{{ page.seo.keywords }}">
+    {% endif %}
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MRW7WDSPF"></script>
+</head>

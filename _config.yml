@@ -1,8 +1,7 @@
-url: "https://roelc.me"
-title: "Roël Couwenberg"
+url: https://roelc.me
+title: Roël Couwenberg
 exclude: [.trunk]
 plugins:
-  - jekyll-redirect-from
   - jekyll-sitemap
 
 default_image_format: png
@@ -21,3 +20,15 @@ image_formats:
     type: image/svg+xml
   - ext: bmp
     type: image/bmp
+
+seo:
+  en:
+    author: Roël Couwenberg
+    image: /assets/images/seo/banner.png
+    description: |
+      Welcome to my portfolio at roelc.me. Here, you can explore a selection of my professional projects and creative solutions. I specialize in cloud computing, DevOps, and backend development. Whether you're seeking inspiration or potential collaboration, my portfolio provides an insight into my skills and achievements. Visit now to learn more about my work and connect with me.
+  nl:
+    author: Roël Couwenberg
+    image: /assets/images/seo/banner.png
+    description: |
+      Welkom op mijn portfolio op roelc.me. Hier kun je een selectie van mijn professionele projecten en creatieve oplossingen verkennen. Ik ben gespecialiseerd in cloud computing, DevOps en backend-ontwikkeling. Of je nu op zoek bent naar inspiratie of potentiële samenwerking, mijn portfolio geeft een goed beeld van mijn vaardigheden en prestaties. Bezoek nu om meer over mijn werk te leren en met mij in contact te komen.

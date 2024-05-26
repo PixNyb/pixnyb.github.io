@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en-US" }}">
+  {% include head.liquid %}
+  <body>
+    {% include header.liquid %}
+    <main>
+      <div class="content">
+        {{ content }}
+      </div>
+      {% include sidebar.liquid %}
+    </main>
+    {% include footer.liquid %}
+    {% include cookie-notice.liquid %}
+    <script src="{{ "/assets/javascript/app.js" | relative_url }}"></script>
+  </body>
+</html>

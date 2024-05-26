@@ -1,6 +1,6 @@
 <div class="card">
     {% if include.image %}
-        {% include image src=include.image.src alt=include.image.alt class=include.image.class height="12rem" %}
+        {% include image.liquid src=include.image.src alt=include.image.alt class=include.image.class height="12rem" %}
     {% endif %}
     <h3>
         {{ include.title }}

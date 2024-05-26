@@ -1,6 +1,6 @@
 header_nav:
   - title: Home
-    url: /nl
+    url: /
   - title: Over
     url: /nl/over
   - title: Projecten & Prestaties
@@ -18,6 +18,9 @@ social_nav:
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
+  - title: Instagram
+    url: https://www.instagram.com/roelc.me
+    icon: fab fa-instagram
   - title: LinkedIn
-    url: https://www.linkedin.com/in/roël-couwenberg/
+    url: https://www.linkedin.com/in/roël-couwenberg
     icon: fab fa-linkedin
