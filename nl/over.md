@@ -15,7 +15,7 @@ seo:
 
 # Over Mij
 
-Ik ben Roël Couwenberg, een leergierige en gemotiveerde ontwikkelaar uit ['s-Hertogenbosch](https://www.google.com/maps/place/'s-Hertogenbosch) met een passie voor cloud, DevOps en (web) applicaties. Ik ben gedreven door de uitdaging om complexe technische problemen op te lossen en streef ernaar om continue waarde te leveren aan projecten en organisaties. Met een brede ervaring in alle stadia van de ontwikkelingscyclus, van de initiële planning en ontwerp tot de uiteindelijke implementatie en onderhoud, ben ik goed uitgerust om bij te dragen aan uiteenlopende projecten.
+Ik ben Roël Couwenberg, een leergierige en gemotiveerde ontwikkelaar uit ['s-Hertogenbosch](geo:51.6978,5.3037?q='s-Hertogenbosch) met een passie voor cloud, DevOps en (web) applicaties. Ik ben gedreven door de uitdaging om complexe technische problemen op te lossen en streef ernaar om continue waarde te leveren aan projecten en organisaties. Met een brede ervaring in alle stadia van de ontwikkelingscyclus, van de initiële planning en ontwerp tot de uiteindelijke implementatie en onderhoud, ben ik goed uitgerust om bij te dragen aan uiteenlopende projecten.
 
 ## Opleiding
 
