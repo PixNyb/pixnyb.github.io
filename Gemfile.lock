@@ -153,8 +153,6 @@ DEPENDENCIES
   jekyll
   jekyll-last-modified-at
   jekyll-sitemap
-  kramdown
-  rouge
   webrick (~> 1.7)
 
 BUNDLED WITH
