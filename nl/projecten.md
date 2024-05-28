@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projecten & Prestaties"
-lang: "nl"
+lang: nl
 translations:
   - url: /en/projects
     lang: en

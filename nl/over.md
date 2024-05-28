@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Over"
-lang: "nl"
+title: Over
+lang: nl
 translations:
   - url: /en/about
     lang: en

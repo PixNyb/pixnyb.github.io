@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Privacybeleid"
-lang: "nl"
+title: Privacybeleid
+lang: nl
 translations:
   - url: /en/privacy
     lang: en
@@ -51,7 +51,7 @@ De door Google Analytics verzamelde informatie wordt gebruikt om:
 
 ## Gegevensdeling en openbaarmaking
 
-Ik verkoop, verhandel of geef uw persoonlijke informatie niet door aan externe partijen. Ik kan uw informatie alleen delen als dit wettelijk verplicht is of om mijn rechten te beschermen. 
+Ik verkoop, verhandel of geef uw persoonlijke informatie niet door aan externe partijen. Ik kan uw informatie alleen delen als dit wettelijk verplicht is of om mijn rechten te beschermen.
 
 Google Analytics-gegevens worden gedeeld met Google in overeenstemming met het privacybeleid van Google. Google kan de verzamelde gegevens gebruiken om advertenties in zijn eigen advertentienetwerk te contextualiseren en te personaliseren.
 

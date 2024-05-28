@@ -1,0 +1,46 @@
+.highlighter-rouge {
+  .k { color: var(--clr-blue); } /* Keywords */
+  .c { color: var(--clr-green); } /* Comments */
+  .c1 { color: var(--clr-green); } /* Block comments */
+  .cm { color: var(--clr-green); } /* Multiline comments */
+  .cp { color: var(--clr-green); } /* Preprocessor */
+  .c2 { color: var(--clr-green); } /* Doc comments */
+  .cs { color: var(--clr-green); } /* Special comments */
+  .g { color: var(--clr-red); } /* Generic */
+  .gd { color: var(--clr-red); } /* Deleted */
+  .ge { font-style: italic; } /* Emphasis */
+  .gr { color: var(--clr-red); } /* Error */
+  .gh { color: var(--clr-blue); } /* Heading */
+  .gi { color: var(--clr-green); } /* Inserted */
+  .go { color: var(--clr-yellow); } /* Output */
+  .gp { color: var(--clr-blue); } /* Prompt */
+  .gs { font-weight: bold; } /* Strong */
+  .gu { color: var(--clr-teal); } /* Subheading */
+  .gt { color: var(--clr-red); } /* Traceback */
+  .kc { color: var(--clr-blue); } /* Keyword constants */
+  .kd { color: var(--clr-blue); } /* Keywords */
+  .kn { color: var(--clr-blue); } /* Namespaces */
+  .kp { color: var(--clr-blue); } /* Keyword pseudo */
+  .kr { color: var(--clr-blue); } /* Keyword reserved */
+  .kt { color: var(--clr-blue); } /* Types */
+  .m { color: var(--clr-teal); } /* Numbers */
+  .s { color: var(--clr-yellow); } /* Strings */
+  .na { color: var(--clr-teal); } /* Attribute names */
+  .nb { color: var(--clr-purple); } /* Builtins */
+  .nc { color: var(--clr-teal); } /* Classes */
+  .no { color: var(--clr-teal); } /* Constants */
+  .nd { color: var(--clr-blue); } /* Decorator */
+  .ni { color: var(--clr-teal); } /* Imports */
+  .ne { color: var(--clr-teal); } /* Exceptions */
+  .nf { color: var(--clr-teal); } /* Functions */
+  .nl { color: var(--clr-teal); } /* Labels */
+  .nn { color: var(--clr-teal); } /* Namespaces */
+  .nt { color: var(--clr-teal); } /* Tags */
+  .nv { color: var(--clr-teal); } /* Variables */
+  .ow { color: var(--clr-blue); } /* Operators */
+  .w { color: var(--clr-yellow); } /* Whitespace */
+  .mf { color: var(--clr-teal); } /* Float */
+  .mh { color: var(--clr-teal); } /* Hex */
+  .mi { color: var(--clr-teal); } /* Integer */
+  .mo { color: var(--clr-teal); } /* Octal */
+}

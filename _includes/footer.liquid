@@ -1,41 +1,44 @@
 <footer>
     <div>
-    <p>&copy; {{ site.title }} 
-        <sup><i class="fas fa-at"></i> PixNyb</sup>
-    {{ "now" | date: "%Y" }}</p>
-    <nav>
-        <ul>
-        {% for item in site.data.[page.lang].navigation.social_nav %}
-            <li>
-                <a href="{{ item.url | relative_url }}">
-                    {% if item.icon %}
-                        <i class="{{ item.icon }}"></i>
-                    {% endif %}
-                    {{ item.title }}
-                </a>
-            </li>
-        {% endfor %}
-        </ul>
-    </nav>
+        <p>&copy; {{ site.title }}
+            <sup>
+                <i class="fas fa-at"></i> PixNyb
+            </sup>
+            {{ "now" | date: "%Y" }}
+        </p>
+        <nav>
+            <ul>
+            {% for item in site.data.[page.lang].navigation.social_nav %}
+                <li>
+                    <a href="{{ item.url | relative_url }}">
+                        {% if item.icon %}
+                            <i class="{{ item.icon }}"></i>
+                        {% endif %}
+                        {{ item.title }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        </nav>
     </div>
     <div>
-    <p class="text-small">
-        <a href="https://jekyllrb.com">Jekyll</a>
-        <a href="https://pages.github.com/">GitHub Pages</a>
-    </p>
-    <nav>
-        <ul>
-        {% for item in site.data.[page.lang].navigation.footer_nav %}
-            <li>
-                <a href="{{ item.url | relative_url }}">
-                    {% if item.icon %}
-                        <i class="{{ item.icon }}"></i>
-                    {% endif %}
-                    {{ item.title }}
-                </a>
-            </li>
-        {% endfor %}
-        </ul>
-    </nav>
+        <p class="text-small">
+            <a href="https://jekyllrb.com">Jekyll</a>
+            <a href="https://pages.github.com/">GitHub Pages</a>
+        </p>
+        <nav>
+            <ul>
+            {% for item in site.data.[page.lang].navigation.footer_nav %}
+                <li>
+                    <a href="{{ item.url | relative_url }}">
+                        {% if item.icon %}
+                            <i class="{{ item.icon }}"></i>
+                        {% endif %}
+                        {{ item.title }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        </nav>
     </div>
 </footer>

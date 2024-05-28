@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Home"
-lang: "nl"
+title: Home
+lang: nl
 translations:
   - url: /en
     lang: en

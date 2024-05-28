@@ -5,6 +5,13 @@ function createHeadingIcon() {
   return icon;
 }
 
+function createCopyIcon() {
+  const icon = document.createElement("span");
+  icon.classList.add("code-icon");
+  icon.innerHTML = '<i class="fas fa-copy"></i><i class="fas fa-check"></i>';
+  return icon;
+}
+
 // Generate a function that copies a link to clipboard when a heading with an id is clicked
 function copyLinkToClipboard() {
   // Get all headings with an id
@@ -21,10 +28,27 @@ function copyLinkToClipboard() {
     heading.addEventListener("click", () => {
       const link = `${window.location.origin}${window.location.pathname}#${heading.id}`;
       navigator.clipboard.writeText(link).then(() => {
-        console.log("Link copied to clipboard:", link);
         heading.classList.add("link-copied");
         setTimeout(() => {
           heading.classList.remove("link-copied");
+        }, 2000);
+      });
+    });
+  });
+}
+
+// Add a copy icon to code blocks
+function copyCodeToClipboard() {
+  const codeBlocks = document.querySelectorAll('pre>code');
+  codeBlocks.forEach(block => {
+    const copySpan = createCopyIcon();
+    block.appendChild(copySpan);
+
+    copySpan.addEventListener('click', () => {
+      navigator.clipboard.writeText(block.innerText).then(() => {
+        block.classList.add('code-copied');
+        setTimeout(() => {
+          block.classList.remove('code-copied');
         }, 2000);
       });
     });
@@ -88,7 +112,7 @@ function isExternalLink(link) {
 function getLinkType(link) {
   url = link.getAttribute('href');
   type = url.split(':')[0];
-  return type;  
+  return type;
 }
 
 // Function to create an icon element
@@ -108,6 +132,8 @@ function createLinkIcon(type) {
     default:
       break;
   }
+
+  if (url.includes('github.com')) iconId = 'code';
 
   const icon = document.createElement('span');
   icon.classList.add('link-icon');
@@ -133,7 +159,7 @@ function appendLinkIcons() {
 
 function scrollScrollers() {
   const scrollers = document.querySelectorAll('.scroller');
-  
+
   scrollers.forEach(scroller => {
     const content = scroller.querySelector('.scroller__content');
     const items = content.querySelectorAll('span');
@@ -169,7 +195,7 @@ function adaptToAgent() {
     lowercaseAgent.includes('mac')
     || lowercaseAgent.includes('iphone')
     || lowercaseAgent.includes('ipad')
-  ) 
+  )
     parsedNavigator = 'apple';
 
   switch (parsedNavigator) {
@@ -216,7 +242,7 @@ function promptCookieNotice() {
         cookieNotice.remove();
       }, 1000);
     });
-    
+
     rejectButton.addEventListener('click', () => {
       const date = new Date();
       date.setFullYear(date.getFullYear() + 10);
@@ -258,6 +284,7 @@ function getCookie(name) {
 // Call the functions when the DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
   copyLinkToClipboard();
+  copyCodeToClipboard();
   highlightActiveHeading();
   setHeadingOffset();
   adaptToAgent();

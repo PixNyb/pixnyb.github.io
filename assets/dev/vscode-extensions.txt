@@ -32,6 +32,5 @@ redhat.vscode-yaml
 ryanluker.vscode-coverage-gutters
 stxr.iconfont-preview
 tamasfe.even-better-toml
-trunk.io
 wakatime.vscode-wakatime
 yzhang.markdown-all-in-one

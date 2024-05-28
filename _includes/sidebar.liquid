@@ -12,10 +12,16 @@
                 {% continue %}
             {% endif %}
             {% capture id %}
-                {{ heading | split: 'id="' | last | split: '"' | first }}
+                {% if heading contains 'id="' %}
+                    {{ heading | split: 'id="' | last | split: '"' | first }}
+                {% endif %}
             {% endcapture %}
             {% assign id = id | strip %}
-            <a class="toc-link" style="margin-left: {{ level  }}rem" href="#{{ id }}">{{ title }}</a>
+            {% if id == "" %}
+                <sub class="toc-link" style="margin-left: {{ level  }}rem">{{ title }}</sub>
+            {% else %}
+                <a class="toc-link" style="margin-left: {{ level  }}rem" href="#{{ id }}">{{ title }}</a>
+            {% endif %}
         {% endfor %}
         </nav>
     </div>

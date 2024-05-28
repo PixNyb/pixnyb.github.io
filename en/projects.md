@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projecten & Achievements"
-lang: "en"
+lang: en
 translations:
   - url: /nl/projecten
     lang: nl

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Privacy Policy"
-lang: "en"
+lang: en
 translations:
   - url: /nl/privacy
     lang: nl
@@ -51,7 +51,7 @@ Information collected by Google Analytics is used to:
 
 ## Data Sharing and Disclosure
 
-I do not sell, trade, or otherwise transfer your personal information to outside parties. I may share your information only if required by law or to protect my rights. 
+I do not sell, trade, or otherwise transfer your personal information to outside parties. I may share your information only if required by law or to protect my rights.
 
 Google Analytics data is shared with Google in accordance with Google's privacy policy. Google may use the data collected to contextualize and personalize the ads of its own advertising network.
 

@@ -5,8 +5,13 @@ $clr-background: $clr-white;
 $clr-accent: $clr-gray;
 $clr-text: $clr-black;
 $clr-link: #6b6b6b;
-$clr-good: #77dd77;
-$clr-bad: #dd7777;
+$clr-green: #228B22; /* Dark green */
+$clr-red: #B22222; /* Dark red */
+$clr-yellow: #DAA520; /* Goldenrod */
+$clr-blue: #1E90FF; /* Dodger blue */
+$clr-teal: #008080; /* Teal */
+$clr-purple: #800080; /* Purple */
+$clr-orange: #FF8C00; /* Dark orange */
 
 $dm-clr-white: #d0d0d0;
 $dm-clr-black: #1d1d1d;
@@ -15,8 +20,13 @@ $dm-clr-background: $dm-clr-black;
 $dm-clr-accent: $dm-clr-gray;
 $dm-clr-text: $dm-clr-white;
 $dm-clr-link: #a1a1a1;
-$dm-clr-good: #59c359;
-$dm-clr-bad: #c35959;
+$dm-clr-green: #32CD32; /* Lime Green */
+$dm-clr-red: #FF6347; /* Tomato */
+$dm-clr-yellow: #FFD700; /* Gold */
+$dm-clr-blue: #1E90FF; /* Dodger Blue */
+$dm-clr-teal: #20B2AA; /* Light Sea Green */
+$dm-clr-purple: #9370DB; /* Medium Purple */
+$dm-clr-orange: #FF8C00; /* Dark Orange */
 
 :root {
   --clr-white: #{$clr-white};
@@ -26,8 +36,13 @@ $dm-clr-bad: #c35959;
   --clr-accent: #{$clr-accent};
   --clr-text: #{$clr-text};
   --clr-link: #{$clr-link};
-  --clr-good: #{$clr-good};
-  --clr-bad: #{$clr-bad};
+  --clr-green: #{$clr-green};
+  --clr-red: #{$clr-red};
+  --clr-yellow: #{$clr-yellow};
+  --clr-blue: #{$clr-blue};
+  --clr-teal: #{$clr-teal};
+  --clr-purple: #{$clr-purple};
+  --clr-orange: #{$clr-orange};
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +54,12 @@ $dm-clr-bad: #c35959;
     --clr-accent: #{$dm-clr-accent};
     --clr-text: #{$dm-clr-text};
     --clr-link: #{$dm-clr-link};
-    --clr-good: #{$dm-clr-good};
-    --clr-bad: #{$dm-clr-bad};
+    --clr-green: #{$dm-clr-green};
+    --clr-red: #{$dm-clr-red};
+    --clr-yellow: #{$dm-clr-yellow};
+    --clr-blue: #{$dm-clr-blue};
+    --clr-teal: #{$dm-clr-teal};
+    --clr-purple: #{$dm-clr-purple};
+    --clr-orange: #{$dm-clr-orange};
   }
 }

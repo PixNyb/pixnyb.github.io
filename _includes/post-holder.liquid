@@ -1,0 +1,45 @@
+<div class="card-holder">
+    {% assign posts = site.posts | where: "lang", page.lang %}
+    {% if include.categories %}
+        {% assign posts = posts | where_exp: "post", "post.categories contains include.categories" %}
+    {% endif %}
+    {% for item in posts %}
+        {% capture excerpt %}
+            {{ item.excerpt | strip_html }}
+        {% endcapture %}
+        {% capture tags %}
+            {% if item.tag %}
+                {{ item.tag }}
+            {% elsif item.tags %}
+                {{ item.tags | join: ", " }}
+            {% endif %}
+        {% endcapture %}
+        {% capture categories %}
+            {% if item.category %}
+                {{ item.category }}
+            {% elsif item.categories %}
+                {{ item.categories | join: ", " }}
+            {% endif %}
+        {% endcapture %}
+        {% capture subtitle %}
+            <span class="info">
+                <span>
+                    <i class="fas fa-calendar"></i> {{ item.date | date: "%B %d, %Y" }}
+                </span>
+                <span>
+                    <i class="fas fa-list"></i> {{ categories }}
+                </span>
+                <span>
+                    <i class="fas fa-tag"></i> {{ tags }}
+                </span>
+            </span>
+        {% endcapture %}
+        {% capture link_text %}
+            {{ site.data[page.lang].words.read_more }}
+        {% endcapture %}
+        {% capture link_url %}
+            {{ item.seo.canonical | relative_url }}
+        {% endcapture %}
+        {% include card.liquid title=item.title subtitle=subtitle image=item.seo.image content=excerpt link_url=link_url link_text=link_text %}
+    {% endfor %}
+</div>

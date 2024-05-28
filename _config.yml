@@ -4,11 +4,7 @@ exclude: [.trunk]
 permalink: pretty
 plugins:
   - jekyll-sitemap
-
-collections:
-  resources:
-    output: true
-    permalink: /:collection/:path/
+excerpt_separator: <!--more-->
 
 default_image_format: png
 image_formats:

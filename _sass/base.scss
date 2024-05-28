@@ -133,13 +133,45 @@ code {
   color: var(--clr-text);
   padding: 0.25rem;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0 0.25rem;
 }
 
-pre > code {
+pre>code {
   display: block;
   overflow-x: auto;
   padding: 1rem;
+  position: relative;
+
+  .code-icon {
+    font-size: 0.8rem;
+    width: 1.2em;
+    height: 1em;
+    color: var(--clr-link);
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    overflow: hidden;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+
+    svg {
+      transition: transform 0.3s, color 0.3s;
+      color: var(--clr-link);
+    }
+  }
+
+  &.code-copied {
+    .code-icon {
+      svg {
+        transform: translateY(-100%);
+        color: var(--clr-green);
+      }
+    }
+  }
 }
 
 q {
@@ -252,6 +284,7 @@ picture {
   }
 
   @media screen and (max-width: 768px) {
+
     &.half,
     &.third,
     &.quarter,
