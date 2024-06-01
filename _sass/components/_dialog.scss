@@ -1,0 +1,14 @@
+dialog {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 500px;
+  border: 1rem solid var(--clr-accent);
+  background-color: var(--clr-background);
+  color: inherit;
+
+  &[open] {
+    display: flex;
+  }
+}

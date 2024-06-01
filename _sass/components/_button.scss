@@ -1,31 +1,31 @@
 .form-tools {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-button {
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 5px solid var(--clr-accent);
-    background-color: var(--clr-accent);
-    color: var(--clr-text);
-    cursor: pointer;
-    font-family: inherit;
-    transition: background-color 0.3s;
+button,
+.button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 5px solid var(--clr-accent);
+  background-color: var(--clr-accent);
+  color: var(--clr-text);
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--clr-background);
+  }
+
+  .card &,
+  .cookie-notice & {
+    background-color: var(--clr-background);
+    border-color: var(--clr-background);
 
     &:hover {
-        background-color: var(--clr-background);
+      background-color: var(--clr-accent);
     }
-
-    .card &,
-    .cookie-notice &
-    {
-        background-color: var(--clr-background);
-        border-color: var(--clr-background);
-
-        &:hover {
-            background-color: var(--clr-accent);
-        }
-    }
+  }
 }

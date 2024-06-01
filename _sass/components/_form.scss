@@ -1,0 +1,38 @@
+form {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  flex: 0 1;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form-tools {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+
+input:not([type="submit"]),
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 5px solid var(--clr-accent);
+  background-color: var(--clr-background);
+  font-family: inherit;
+  color: inherit;
+  transition: border-color 0.3s;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+  position: relative;
+}
