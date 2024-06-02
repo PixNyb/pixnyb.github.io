@@ -3,10 +3,10 @@ layout: default
 title: Over
 lang: nl
 translations:
-  - url: /en/about
+  - url: /en/about/
     lang: en
 seo:
-  canonical: /nl/over
+  canonical: /nl/over/
   description: |
     Ik ben een toegewijde ontwikkelaar uit 's-Hertogenbosch met een passie voor cloud, DevOps en webapplicaties. Mijn ervaring omvat alle fasen van de ontwikkelingscyclus, van planning en ontwerp tot implementatie en onderhoud. Met een sterke basis in Computer Science van Avans Hogeschool, ben ik gespecialiseerd in technologieën zoals C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript en Docker. Toegewijd aan continue leren, streef ik ernaar innovatieve oplossingen te bieden die voldoen aan de behoeften van klanten en de efficiëntie van bedrijven verbeteren.
 ---

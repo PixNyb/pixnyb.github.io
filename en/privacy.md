@@ -3,10 +3,10 @@ layout: default
 title: "Privacy Policy"
 lang: en
 translations:
-  - url: /nl/privacy
+  - url: /nl/privacy/
     lang: nl
 seo:
-  canonical: /en/privacy
+  canonical: /en/privacy/
   description: |
     On this page, you will find my comprehensive Privacy Policy, detailing how I collect, use, and protect your personal information. I am committed to maintaining the privacy and security of your data and ensuring transparency in my practices. This policy explains the types of information I gather, how it is used, the measures I take to safeguard it, and your rights regarding your personal information. By understanding my privacy practices, you can feel confident in the safety and security of your data while using my services.
 ---

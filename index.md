@@ -3,7 +3,7 @@ layout: default
 title: Home
 lang: nl
 translations:
-  - url: /en
+  - url: /en/
     lang: en
 seo:
   canonical: /

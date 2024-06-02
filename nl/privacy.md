@@ -3,10 +3,10 @@ layout: default
 title: Privacybeleid
 lang: nl
 translations:
-  - url: /en/privacy
+  - url: /en/privacy/
     lang: en
 seo:
-  canonical: /nl/privacy
+  canonical: /nl/privacy/
   description: |
     Op deze pagina vind je mijn uitgebreide privacybeleid, waarin ik uitleg hoe ik jouw persoonlijke informatie verzamel, gebruik en bescherm. Ik ben toegewijd aan het waarborgen van de privacy en veiligheid van jouw gegevens en streef naar transparantie in mijn werkwijzen. Dit beleid legt uit welke soorten informatie ik verzamel, hoe deze wordt gebruikt, welke maatregelen ik neem om deze te beschermen en wat jouw rechten zijn met betrekking tot jouw persoonlijke informatie. Door mijn privacypraktijken te begrijpen, kun je erop vertrouwen dat jouw gegevens veilig en beschermd zijn tijdens het gebruik van mijn diensten.
 ---

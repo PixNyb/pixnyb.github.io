@@ -6,7 +6,7 @@ translations:
   - url: /
     lang: nl
 seo:
-  canonical: /en
+  canonical: /en/
 ---
 
 # Roël Couwenberg
