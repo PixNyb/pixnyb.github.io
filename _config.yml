@@ -23,6 +23,12 @@ image_formats:
   - ext: bmp
     type: image/bmp
 
+defaults:
+  - scope:
+      path: "nl/index.md"
+    values:
+      sitemap: false
+
 seo:
   en:
     author: Roël Couwenberg
