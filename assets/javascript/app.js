@@ -147,8 +147,8 @@ function appendLinkIcons() {
 
   links.forEach(link => {
     if (isExternalLink(link)) {
-      const icon = createLinkIcon(getLinkType(link));
-      link.appendChild(icon);
+      // const icon = createLinkIcon(getLinkType(link));
+      // link.appendChild(icon);
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noreferrer noopener");
     }

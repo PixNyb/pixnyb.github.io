@@ -1,44 +1,15 @@
 <footer>
-    <div>
-        <p>&copy; {{ site.title }}
-            <sup>
-                <i class="fas fa-at"></i> PixNyb
-            </sup>
-            {{ "now" | date: "%Y" }}
-        </p>
-        <nav>
-            <ul>
-            {% for item in site.data.[page.lang].navigation.social_nav %}
-                <li>
-                    <a href="{{ item.url | relative_url }}">
-                        {% if item.icon %}
-                            <i class="{{ item.icon }}"></i>
-                        {% endif %}
-                        {{ item.title }}
-                    </a>
-                </li>
-            {% endfor %}
-            </ul>
-        </nav>
-    </div>
-    <div>
-        <p class="text-small">
-            <a href="https://jekyllrb.com">Jekyll</a>
-            <a href="https://pages.github.com/">GitHub Pages</a>
-        </p>
-        <nav>
-            <ul>
-            {% for item in site.data.[page.lang].navigation.footer_nav %}
-                <li>
-                    <a href="{{ item.url | relative_url }}">
-                        {% if item.icon %}
-                            <i class="{{ item.icon }}"></i>
-                        {% endif %}
-                        {{ item.title }}
-                    </a>
-                </li>
-            {% endfor %}
-            </ul>
-        </nav>
-    </div>
+    <span>
+        Made with <i class="fas fa-heart" style="color: var(--clr-red)"></i> by <a href="https://roelc.me" target="_blank" referrerpolicy="no-referrer">pixnyb</a>
+    </span>
+    <span>
+        {% for item in site.data.[page.lang].navigation.social_nav %}
+            <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}</a>&nbsp;
+        {% endfor %}
+    </span>
+    <span>
+        {% for item in site.data.[page.lang].navigation.footer_nav %}
+            <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}{{ item.title }}</a>&nbsp;
+        {% endfor %}
+    </span>
 </footer>

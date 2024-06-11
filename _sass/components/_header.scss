@@ -1,16 +1,13 @@
 header {
   background-color: var(--clr-background);
   color: var(--clr-text);
-  padding: 1rem;
+  padding: 1rem 0 1rem 1.4rem;
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1200px;
+  left: 0;
+  right: 0;
   display: flex;
   z-index: 1000;
-  border-bottom: 1rem solid var(--clr-accent);
 
   @media screen and (max-width: 1300px){
     padding: 1rem 2rem;
@@ -21,7 +18,7 @@ header {
   }
 
   picture {
-    margin-right: 1rem;
+    margin-right: 2rem;
     img {
       width: 50px;
       height: 50px;
@@ -49,7 +46,7 @@ header {
 
       li {
         margin-right: 1rem;
-        
+
         &::before {
           display: none;
         }
@@ -170,11 +167,11 @@ header {
       gap: 1rem;
 
       li {
-        
+
         &::before {
           display: none;
         }
-        
+
         a {
           color: var(--clr-text);
           font-family: var(--font-family-variable);

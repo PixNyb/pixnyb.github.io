@@ -17,6 +17,7 @@ footer_nav:
 social_nav:
   - title: E-Mail
     url: mailto:contact@roelc.me
+    icon: fas fa-paper-plane
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
