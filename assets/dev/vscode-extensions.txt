@@ -21,6 +21,7 @@ liximomo.remotefs
 mechatroner.rainbow-csv
 mhutchie.git-graph
 ms-vscode.hexeditor
+ms-vscode.live-server
 mtxr.sqltools
 mtxr.sqltools-driver-mssql
 mtxr.sqltools-driver-mysql
