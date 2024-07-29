@@ -10,6 +10,7 @@ seo:
 ---
 
 # Roël Couwenberg
+{: .large }
 
 {% capture scroller_content %}
 <span>{% include icon.liquid icon="fas fa-cloud inline" %} Cloud</span>

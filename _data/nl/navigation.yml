@@ -21,6 +21,9 @@ social_nav:
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
+  - title: Docker Hub
+    url: https://hub.docker.com/u/pixnyb
+    icon: fab fa-docker
   - title: Instagram
     url: https://www.instagram.com/roelc.me
     icon: fab fa-instagram
