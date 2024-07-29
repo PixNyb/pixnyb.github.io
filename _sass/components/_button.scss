@@ -20,8 +20,7 @@ button,
   }
 
   &.secondary,
-  .card &:not(.primary)
-  .cookie-notice &:not(.primary) {
+  .card &:not(.primary) {
     background-color: var(--clr-background);
     border-color: var(--clr-background);
 
