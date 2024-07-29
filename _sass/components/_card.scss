@@ -10,8 +10,9 @@
     background-color: var(--clr-accent);
     padding: 2rem;
     flex: 1 1 300px;
+    max-width: 100%;
 
-    @media screen and (max-width: 1300px){
+    @media screen and (max-width: 1300px) {
         padding: 1rem;
     }
 
@@ -22,7 +23,7 @@
         span {
             position: relative;
 
-            & + span {
+            &+span {
                 margin-left: 0.5rem;
 
                 &::before {

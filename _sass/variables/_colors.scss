@@ -5,13 +5,20 @@ $clr-background: $clr-white;
 $clr-accent: $clr-gray;
 $clr-text: $clr-black;
 $clr-link: #6b6b6b;
-$clr-green: #228B22; /* Dark green */
-$clr-red: #B22222; /* Dark red */
-$clr-yellow: #DAA520; /* Goldenrod */
-$clr-blue: #1E90FF; /* Dodger blue */
-$clr-teal: #008080; /* Teal */
-$clr-purple: #800080; /* Purple */
-$clr-orange: #FF8C00; /* Dark orange */
+$clr-green: #228B22;
+/* Dark green */
+$clr-red: #B22222;
+/* Dark red */
+$clr-yellow: #DAA520;
+/* Goldenrod */
+$clr-blue: #1E90FF;
+/* Dodger blue */
+$clr-teal: #008080;
+/* Teal */
+$clr-purple: #800080;
+/* Purple */
+$clr-orange: #FF8C00;
+/* Dark orange */
 
 $dm-clr-white: #d0d0d0;
 $dm-clr-black: #1d1d1d;
@@ -20,13 +27,20 @@ $dm-clr-background: $dm-clr-black;
 $dm-clr-accent: $dm-clr-gray;
 $dm-clr-text: $dm-clr-white;
 $dm-clr-link: #a1a1a1;
-$dm-clr-green: #32CD32; /* Lime Green */
-$dm-clr-red: #FF6347; /* Tomato */
-$dm-clr-yellow: #FFD700; /* Gold */
-$dm-clr-blue: #1E90FF; /* Dodger Blue */
-$dm-clr-teal: #20B2AA; /* Light Sea Green */
-$dm-clr-purple: #9370DB; /* Medium Purple */
-$dm-clr-orange: #FF8C00; /* Dark Orange */
+$dm-clr-green: #32CD32;
+/* Lime Green */
+$dm-clr-red: #FF6347;
+/* Tomato */
+$dm-clr-yellow: #FFD700;
+/* Gold */
+$dm-clr-blue: #1E90FF;
+/* Dodger Blue */
+$dm-clr-teal: #20B2AA;
+/* Light Sea Green */
+$dm-clr-purple: #9370DB;
+/* Medium Purple */
+$dm-clr-orange: #FF8C00;
+/* Dark Orange */
 
 :root {
   --clr-white: #{$clr-white};

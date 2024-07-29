@@ -11,12 +11,12 @@ seo:
   canonical: /en/resources/2024/05/26/dockerised-vscode
 ---
 
-# Simplify Your Development Setup with Dockerised VS Code
+# Simplify Your Development Setup With Dockerized VS Code
 
-As a developer, setting up a consistent and reproducible development environment across different machines can be a challenge. To address this, I've created two repositories designed to streamline this process using Docker: [dockerised-vscode](https://github.com/PixNyb/dockerised-vscode) and [dockerised-vscode-scripts](https://github.com/PixNyb/dockerised-vscode-scripts). These repositories aim to provide a hassle-free way to run Visual Studio Code (VS Code) in a Docker container.
+As a developer, setting up a consistent and reproducible development environment across different machines can be a challenge. This is especially true when working on multiple projects with different dependencies and configurations. To address this issue, I've created a setup that allows you to run Visual Studio Code (VS Code) in a Docker container, providing a consistent and isolated development environment that can be easily shared and replicated.
 <!--more-->
 
-## Introducing dockerised-vscode
+## Introducing `dockerised-vscode`
 
 The `dockerised-vscode` repository is the core of this setup. It provides a Docker image configured to run VS Code in a container, allowing you to work in a controlled environment that can be easily replicated. Here are some of the key benefits:
 
@@ -42,13 +42,3 @@ services:
 ```
 
 To get started, you can check out the [dockerised-vscode repository](https://github.com/PixNyb/dockerised-vscode) and follow the instructions in the README.
-
-## Enhancing Functionality with dockerised-vscode-scripts
-
-The `dockerised-vscode-scripts` repository is an add-on to the main `dockerised-vscode` repository. It contains a collection of scripts and templates tailored for specific development environments. This repository enhances the functionality of the base Docker image by providing:
-
-- **Templates:** Pre-built configurations for various development setups, such as Python, Node.js, and more.
-- **Automation:** Scripts that automate the setup and configuration of these environments, saving you time and effort.
-- **Customization:** These templates allow you to further customize your development environment based on your specific needs.
-
-You can explore the available scripts and templates in the [dockerised-vscode-scripts repository](https://github.com/PixNyb/dockerised-vscode-scripts).
