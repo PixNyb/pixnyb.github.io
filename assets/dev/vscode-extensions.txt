@@ -4,9 +4,7 @@ bierner.markdown-mermaid
 bpruitt-goddard.mermaid-markdown-syntax-highlighting
 christian-kohler.path-intellisense
 codezombiech.gitignore
-donjayamanne.githistory
 dotjoshjohnson.xml
-eamodio.gitlens
 editorconfig.editorconfig
 felipecaputo.git-project-manager
 formulahendry.code-runner
@@ -19,7 +17,6 @@ james-yu.latex-workshop
 jock.svg
 liximomo.remotefs
 mechatroner.rainbow-csv
-mhutchie.git-graph
 ms-vscode.hexeditor
 ms-vscode.live-server
 mtxr.sqltools
