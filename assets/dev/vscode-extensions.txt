@@ -6,14 +6,13 @@ christian-kohler.path-intellisense
 codezombiech.gitignore
 dotjoshjohnson.xml
 editorconfig.editorconfig
-felipecaputo.git-project-manager
 formulahendry.code-runner
 github.copilot
 github.copilot-chat
 github.vscode-github-actions
 github.vscode-pull-request-github
 gruntfuggly.triggertaskonsave
-james-yu.latex-workshop
+humao.rest-client
 jock.svg
 liximomo.remotefs
 mechatroner.rainbow-csv
