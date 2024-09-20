@@ -22,11 +22,19 @@ projects:
       text: bjoc.nl
 
 achievements:
+  - title: CNCF CKA
+    subtitle: <b>LF-44s7k5alfp</b> - Valid until 2026
+    description: |
+      The Certified Kubernetes Administrator (CKA) certification is a valuable qualification that demonstrates a professional's ability to design, install, configure, and manage Kubernetes clusters. This certification covers essential concepts, including Kubernetes architecture, installation, application lifecycle management, networking, storage, security, and troubleshooting. Earning a CKA shows a strong foundation in Kubernetes, making it a valuable asset for IT professionals looking to advance their careers in cloud-native technologies.
+    image:
+      src: /assets/images/cka.png
+      alt: The logo of the CNCF CKA certification
+      class: contain full
   - title: Cisco CCNA
-    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2018
+    subtitle: Expired
     description: |
       The Cisco Certified Network Associate (CCNA) certification is a valued qualification that demonstrates a professional's ability to install, configure, manage, and troubleshoot medium-sized routed and switched networks. This certification covers essential network concepts, including IP connectivity, network access, IP services, security fundamentals, and automation and programmability. Earning a CCNA shows a strong foundation in networking, making it a valuable asset for IT professionals looking to advance their careers in network management and administration.
-  - title: HAVO (NT & NG)
-    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2019
-    description: |
-      I obtained my HAVO diploma at Ds. Pierson College in 's-Hertogenbosch, with a focus on science subjects. My course package included physics, chemistry, biology, computer science, and mathematics A. This combination of subjects has provided me with a solid foundation in the sciences and technology, allowing me to develop analytical thinking and problem-solving skills. This knowledge and skills have well prepared me for my further studies in computer science and my career as a developer.
+    image:
+      src: /assets/images/ccna.png
+      alt: The logo of the Cisco CCNA certification
+      class: contain full

@@ -22,11 +22,19 @@ projects:
       text: bjoc.nl
 
 achievements:
+  - title: CNCF CKA
+    subtitle: <b>LF-44s7k5alfp</b> - Geldig tot 2026
+    description: |
+      De Certified Kubernetes Administrator (CKA) certificering is een waardevolle kwalificatie die aantoont dat een professional in staat is om Kubernetes-clusters te ontwerpen, installeren, configureren en beheren. Deze certificering dekt essentiële concepten, waaronder Kubernetes-architectuur, installatie, applicatielevenscyclusbeheer, netwerken, opslag, beveiliging en probleemoplossing. Het behalen van een CKA toont een sterke basis in Kubernetes aan, wat het een waardevolle troef maakt voor IT-professionals die hun carrière in cloud-native technologieën willen bevorderen.
+    image:
+      src: /assets/images/cka.png
+      alt: Het logo van de CNCF CKA certificering
+      class: contain full
   - title: Cisco CCNA
-    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2018
+    subtitle: Verlopen
     description: |
       De Cisco Certified Network Associate (CCNA) certificering is een gewaardeerde kwalificatie die aantoont dat een professional in staat is om middelgrote routed en switched netwerken te installeren, configureren, beheren en problemen op te lossen. Deze certificering dekt essentiële netwerkconcepten, waaronder IP-connectiviteit, netwerktoegang, IP-diensten, beveiligingsfundamentals en automatisering en programmeerbaarheid. Het behalen van een CCNA toont een sterke basis in netwerken aan, wat het een waardevolle troef maakt voor IT-professionals die hun carrière in netwerkbeheer en -administratie willen bevorderen.
-  - title: HAVO (NT & NG)
-    subtitle: <b>Ds. Pierson College</b>, 's-Hertogenbosch - 2019
-    description: |
-      Ik heb mijn HAVO-diploma behaald aan het Ds. Pierson College in 's-Hertogenbosch, met een focus op exacte vakken. Mijn vakkenpakket bestond uit natuurkunde, scheikunde, biologie, informatica en wiskunde A. Deze combinatie van vakken heeft me een solide basis gegeven in de exacte wetenschappen en technologie, waardoor ik analytisch denkvermogen en probleemoplossende vaardigheden heb ontwikkeld. Deze kennis en vaardigheden hebben mij goed voorbereid op mijn verdere studie in informatica en mijn carrière als ontwikkelaar.
+    image:
+      src: /assets/images/ccna.png
+      alt: Het logo van de Cisco CCNA certificering
+      class: contain full
