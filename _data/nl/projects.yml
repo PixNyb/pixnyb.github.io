@@ -22,6 +22,14 @@ projects:
       text: bjoc.nl
 
 achievements:
+  - title: Scrum.org PSM I
+    subtitle: Verloopt niet
+    description: |
+      De Professional Scrum Master I (PSM I) certificering is een waardevolle kwalificatie die aantoont dat een professional in staat is om Scrum-teams te begeleiden en te ondersteunen bij het implementeren van Scrum-praktijken en -principes. Deze certificering dekt essentiële concepten, waaronder Scrum-theorie, Scrum-evenementen, Scrum-rollen, Scrum-artefacten en empirische procescontrole. Het behalen van een PSM I toont een sterke basis in Scrum aan, wat het een waardevolle troef maakt voor IT-professionals die hun carrière in agile softwareontwikkeling willen bevorderen.
+    image:
+      src: /assets/images/psm1.png
+      alt: Het logo van de Scrum.org PSM I certificering
+      class: contain full
   - title: CNCF CKA
     subtitle: <b>LF-44s7k5alfp</b> - Geldig tot 2026
     description: |
