@@ -24,7 +24,6 @@ mtxr.sqltools-driver-mysql
 mtxr.sqltools-driver-pg
 mtxr.sqltools-driver-sqlite
 natizyskunk.sftp
-rangav.vscode-thunder-client
 redhat.vscode-yaml
 ryanluker.vscode-coverage-gutters
 stxr.iconfont-preview
