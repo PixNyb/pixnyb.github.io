@@ -1,3 +1,4 @@
+adamraichu.pdf-viewer
 artlaman.chalice-color-theme
 artlaman.chalice-icon-theme
 bierner.markdown-mermaid
