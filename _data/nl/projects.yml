@@ -22,6 +22,14 @@ projects:
       text: bjoc.nl
 
 achievements:
+  - title: LFCS
+    subtitle: <b>LF-9qgaihvohk</b> - Geldig tot 2026
+    description: |
+      De Linux Foundation Certified System Administrator (LFCS) certificering is een waardevolle kwalificatie die aantoont dat een professional in staat is om Linux-systemen te installeren, configureren en beheren. Deze certificering dekt essentiële concepten, waaronder systeemarchitectuur, GNU- en Unix-commando's, bestandssystemen, shell-scripting, gebruikersinterfaces, systeemdiensten en beveiliging. Het behalen van een LFCS toont een sterke basis in Linux aan, wat het een waardevolle troef maakt voor IT-professionals die hun carrière in systeembeheer willen bevorderen.
+    image:
+      src: /assets/images/lfcs.png
+      alt: Het logo van de Linux Foundation LFCS certificering
+      class: contain full
   - title: Scrum.org PSM I
     subtitle: Verloopt niet
     description: |
