@@ -1,12 +1,13 @@
 header_nav:
   - title: Home
-    url: /en
+    url: /en/
   - title: About
-    url: /en/about
-  - title: Projects & Achievements
-    url: /en/projects
+    url: /en/about/
+  - title: Achievements
+    url: /en/achievements/
+  - divider: true
   - title: Blog
-    url: /en/blog
+    url: /en/blog/
 
 footer_nav:
   - title: Privacy Policy
@@ -18,12 +19,14 @@ social_nav:
   - title: E-mail
     url: mailto:contact@roelc.me
     icon: fas fa-paper-plane
+  - divider: true
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
   - title: Docker Hub
     url: https://hub.docker.com/u/pixnyb
     icon: fab fa-docker
+  - divider: true
   - title: Instagram
     url: https://www.instagram.com/roelc.me
     icon: fab fa-instagram

@@ -5,6 +5,7 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
 excerpt_separator: <!--more-->
+divider_character: "—"
 
 default_image_format: png
 image_formats:

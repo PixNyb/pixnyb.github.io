@@ -4,12 +4,20 @@
     </span>
     <span>
         {% for item in site.data.[page.lang].navigation.social_nav %}
-            <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}</a>&nbsp;
+            {% if item.divider %}
+                <span class="divider">{{ site.divider_character }}</span>&nbsp;
+            {% else %}
+                <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}</a>&nbsp;
+            {% endif %}
         {% endfor %}
     </span>
     <span>
         {% for item in site.data.[page.lang].navigation.footer_nav %}
-            <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}{{ item.title }}</a>&nbsp;
+            {% if item.divider %}
+                <span class="divider">{{ site.divider_character }}</span>&nbsp;
+            {% else %}
+                <a href="{{ item.url | relative_url }}">{% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}{{ item.title }}</a>&nbsp;
+            {% endif %}
         {% endfor %}
     </span>
 </footer>

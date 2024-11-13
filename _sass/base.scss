@@ -301,3 +301,9 @@ picture {
     }
   }
 }
+
+.divider {
+  font-weight: bold;
+  color: var(--clr-link);
+  pointer-events: none;
+}

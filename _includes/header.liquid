@@ -11,12 +11,16 @@
     <ul>
         {% for item in site.data.[page.lang].navigation.header_nav %}
         <li>
-            <a href="{{ item.url | relative_url }}">
-            {% if item.icon %}
-                <i class="{{ item.icon }}"></i>
+            {% if item.divider %}
+                <span class="divider">{{ site.divider_character }}</span>&nbsp;
+            {% else %}
+                <a href="{{ item.url | relative_url }}">
+                {% if item.icon %}
+                    <i class="{{ item.icon }}"></i>
+                {% endif %}
+                {{ item.title }}
+                </a>
             {% endif %}
-            {{ item.title }}
-            </a>
         </li>
         {% endfor %}
     </ul>
@@ -25,9 +29,13 @@
     <ul>
         {% for item in page.translations %}
         <li>
-            <a href="{{ item.url | relative_url }}" class="{% if item.url == page.url %}active{% endif %}">
-            {{ site.data.[page.lang].languages[item.lang] }}
-            </a>
+            {% if item.divider %}
+                <span class="divider">{{ site.divider_character }}</span>&nbsp;
+            {% else %}
+                <a href="{{ item.url | relative_url }}" class="{% if item.url == page.url %}active{% endif %}">
+                {{ site.data.[page.lang].languages[item.lang] }}
+                </a>
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
@@ -40,12 +48,16 @@
     <ul>
         {% for item in site.data.[page.lang].navigation.header_nav %}
         <li>
-            <a href="{{ item.url | relative_url }}">
-            {% if item.icon %}
-                <i class="{{ item.icon }}"></i>
+            {% if item.divider %}
+                <span class="divider">{{ site.divider_character }}</span>&nbsp;
+            {% else %}
+                <a href="{{ item.url | relative_url }}">
+                {% if item.icon %}
+                    <i class="{{ item.icon }}"></i>
+                {% endif %}
+                {{ item.title }}
+                </a>
             {% endif %}
-            {{ item.title }}
-            </a>
         </li>
         {% endfor %}
     </ul>

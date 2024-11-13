@@ -2,11 +2,12 @@ header_nav:
   - title: Home
     url: /
   - title: Over
-    url: /nl/over
-  - title: Projecten & Prestaties
-    url: /nl/projecten
+    url: /nl/over/
+  - title: Prestaties
+    url: /nl/prestaties/
+  - divider: true
   - title: Blog
-    url: /nl/blog
+    url: /nl/blog/
 
 footer_nav:
   - title: Privacybeleid
@@ -18,12 +19,14 @@ social_nav:
   - title: E-Mail
     url: mailto:contact@roelc.me
     icon: fas fa-paper-plane
+  - divider: true
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
   - title: Docker Hub
     url: https://hub.docker.com/u/pixnyb
     icon: fab fa-docker
+  - divider: true
   - title: Instagram
     url: https://www.instagram.com/roelc.me
     icon: fab fa-instagram
