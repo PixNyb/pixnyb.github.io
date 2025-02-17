@@ -8,14 +8,14 @@ translations:
 seo:
   canonical: /nl/over/
   description: |
-    Ik ben een toegewijde ontwikkelaar uit 's-Hertogenbosch met een passie voor cloud, DevOps en webapplicaties. Mijn ervaring omvat alle fasen van de ontwikkelingscyclus, van planning en ontwerp tot implementatie en onderhoud. Met een sterke basis in Computer Science van Avans Hogeschool, ben ik gespecialiseerd in technologieën zoals C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript en Docker. Toegewijd aan continue leren, streef ik ernaar innovatieve oplossingen te bieden die voldoen aan de behoeften van klanten en de efficiëntie van bedrijven verbeteren.
+    Ik ben een toegewijde DevOps/cloud engineer uit 's-Hertogenbosch met een passie voor cloud, DevOps en webapplicaties. Mijn ervaring omvat alle fasen van de ontwikkelingscyclus, van planning en ontwerp tot implementatie en onderhoud. Met een sterke basis in Computer Science van Avans Hogeschool, ben ik gespecialiseerd in technologieën zoals C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript en Docker. Toegewijd aan continue leren, streef ik ernaar innovatieve oplossingen te bieden die voldoen aan de behoeften van klanten en de efficiëntie van bedrijven verbeteren.
 ---
 
 {% include image.liquid src="/assets/images/roel.png" alt="Een foto van Roël Couwenberg" class="half cover left border" height="18rem" %}
 
 # Over Mij
 
-Ik ben Roël Couwenberg, een leergierige en gemotiveerde ontwikkelaar uit ['s-Hertogenbosch](geo:51.6978,5.3037?q='s-Hertogenbosch) met een passie voor cloud, DevOps en (web) applicaties. Ik ben gedreven door de uitdaging om complexe technische problemen op te lossen en streef ernaar om continue waarde te leveren aan projecten en organisaties. Met een brede ervaring in alle stadia van de ontwikkelingscyclus, van de initiële planning en ontwerp tot de uiteindelijke implementatie en onderhoud, ben ik goed uitgerust om bij te dragen aan uiteenlopende projecten.
+Ik ben Roël Couwenberg, een leergierige en gemotiveerde DevOps/cloud engineer uit ['s-Hertogenbosch](geo:51.6978,5.3037?q='s-Hertogenbosch) met een passie voor cloud, DevOps en (web) applicaties. Ik ben gedreven door de uitdaging om complexe technische problemen op te lossen en streef ernaar om continue waarde te leveren aan projecten en organisaties. Met een brede ervaring in alle stadia van de ontwikkelingscyclus, van de initiële planning en ontwerp tot de uiteindelijke implementatie en onderhoud, ben ik goed uitgerust om bij te dragen aan uiteenlopende projecten.
 
 ## Opleiding
 

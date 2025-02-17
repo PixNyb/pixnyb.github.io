@@ -34,7 +34,6 @@ services:
     ports:
       - 8000:8000
     environment:
-      - VSCODE_KEYRING_PASS=password
       - GIT_GLOBAL_USER_NAME=PixNyb
       - GIT_GLOBAL_USER_EMAIL=contact@roelc.me
     volumes:

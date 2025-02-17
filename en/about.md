@@ -8,14 +8,14 @@ translations:
 seo:
   canonical: /en/about/
   description: |
-    I am a dedicated developer from 's-Hertogenbosch with a passion for cloud, DevOps, and web applications. My journey includes extensive experience in the full development cycle, from planning and design to implementation and maintenance. With a strong foundation in Computer Science from Avans University, I specialize in technologies like C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript, and Docker. Committed to continuous learning, I aim to deliver innovative solutions that meet client needs and enhance business efficiency.
+    I am a dedicated DevOps/cloud engineer from 's-Hertogenbosch with a passion for cloud, DevOps, and web applications. My journey includes extensive experience in the full development cycle, from planning and design to implementation and maintenance. With a strong foundation in Computer Science from Avans University, I specialize in technologies like C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript, and Docker. Committed to continuous learning, I aim to deliver innovative solutions that meet client needs and enhance business efficiency.
 ---
 
 {% include image.liquid src="/assets/images/roel.png" alt="A photo of Roël Couwenberg" class="half cover left border" height="18rem" %}
 
 # About Me
 
-I am Roël Couwenberg, a curious and motivated developer from ['s-Hertogenbosch](geo:51.6978,5.3037?q='s-Hertogenbosch) with a passion for cloud, DevOps, and (web) applications. I am driven by the challenge of solving complex technical problems and strive to continuously deliver value to projects and organizations. With extensive experience in all stages of the development cycle, from initial planning and design to final implementation and maintenance, I am well-equipped to contribute to diverse projects.
+I am Roël Couwenberg, a curious and motivated DevOps/cloud engineer from ['s-Hertogenbosch](geo:51.6978,5.3037?q='s-Hertogenbosch) with a passion for cloud, DevOps, and (web) applications. I am driven by the challenge of solving complex technical problems and strive to continuously deliver value to projects and organizations. With extensive experience in all stages of the development cycle, from initial planning and design to final implementation and maintenance, I am well-equipped to contribute to diverse projects.
 
 ## Education
 
