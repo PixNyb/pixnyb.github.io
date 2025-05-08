@@ -3,7 +3,7 @@
   {% include head.liquid %}
   <body>
     {% include header.liquid %}
-    <main>
+    <main class="{% if page.centered %}centered{% endif %} {% if page.fullwidth %}fullwidth{% endif %}">
       <div class="content">
         {{ content }}
       </div>

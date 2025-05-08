@@ -1,6 +1,7 @@
+@use "sass:string";
+
 $static-fonts: (
-  "Montserrat": (
-    "Black": "900",
+  "Montserrat": ("Black": "900",
     "BlackItalic": "900",
     "Bold": "700",
     "BoldItalic": "700",
@@ -22,8 +23,7 @@ $static-fonts: (
 );
 
 $variable-fonts: (
-  "Montserrat": (
-    "Italic": "Italic-VariableFont_wght",
+  "Montserrat": ("Italic": "Italic-VariableFont_wght",
     "Regular": "VariableFont_wght",
   ),
 );
@@ -31,16 +31,18 @@ $variable-fonts: (
 @each $font, $weights in $static-fonts {
   @each $weight, $value in $weights {
     // Store whether the font is italic or not
-    $is-italic: str-index($weight, "Italic") != null;
+    $is-italic: string.index($weight, "Italic") !=null;
+
     @font-face {
       font-family: "#{$font}";
       font-weight: #{$value};
+
       // If the font is italic, set the font-style to italic
       @if $is-italic {
         font-style: italic;
       }
-      src: url("/assets/fonts/#{$font}/static/#{$font}-#{$weight}.ttf")
-        format("truetype");
+
+      src: url("/assets/fonts/#{$font}/static/#{$font}-#{$weight}.ttf") format("truetype");
     }
   }
 }
@@ -49,8 +51,7 @@ $variable-fonts: (
   @each $weight, $value in $weights {
     @font-face {
       font-family: "#{$font} Variable";
-      src: url("/assets/fonts/#{$font}/#{$font}-#{$value}.ttf")
-        format("truetype");
+      src: url("/assets/fonts/#{$font}/#{$font}-#{$value}.ttf") format("truetype");
     }
   }
 }

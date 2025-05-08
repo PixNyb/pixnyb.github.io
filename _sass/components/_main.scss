@@ -1,13 +1,22 @@
 main {
   width: 100%;
-  max-width: 1200px;
   margin: 12rem auto 6rem auto;
+  max-width: 1200px;
   display: flex;
   flex-flow: row nowrap;
   gap: 2rem;
   flex: 1;
 
-  @media screen and (max-width: 1300px){
+  &.fullwidth {
+    max-width: unset;
+    padding: 0 4rem;
+  }
+
+  &.centered {
+    align-items: center;
+  }
+
+  @media screen and (max-width: 1300px) {
     padding: 0 2rem;
     width: unset;
   }
@@ -43,7 +52,7 @@ main {
     }
   }
 
-  @media screen and (max-width: 1300px){
+  @media screen and (max-width: 1300px) {
     aside {
       display: none;
     }

@@ -7,6 +7,7 @@ translations:
     lang: nl
 seo:
   canonical: /en/
+centered: true
 ---
 
 # Roël Couwenberg
