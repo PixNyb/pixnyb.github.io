@@ -1,15 +1,4 @@
 projects:
-  - title: FirstOrDefault
-    subtitle: "'s-Hertogenbosch"
-    description: |
-      Samen met Sven van der Zwet ben ik eigenaar van FirstOrDefault, een dynamisch en innovatief ontwikkelbedrijf gevestigd in 's-Hertogenbosch. Bij FirstOrDefault richten we ons op het leveren van op maat gemaakte (web)applicaties en digitale oplossingen die voldoen aan de unieke behoeften van onze klanten. Met onze gecombineerde expertise in full-stack ontwikkeling, ontwerp en projectmanagement, streven we ernaar om hoogwaardige en schaalbare software te creëren. Ons doel is om bedrijven te helpen efficiënter te werken en hun digitale doelen te bereiken door middel van innovatieve technologieën en op maat gemaakte oplossingen.
-    image:
-      src: /assets/images/firstordefault.png
-      alt: Het logo van FirstOrDefault
-      class: cover full
-    link:
-      url: http://firstordefault.nl
-      text: firstordefault.nl
   - title: BJoC
     subtitle: <b>Hoog Catharijne</b>, Utrecht
     description: |

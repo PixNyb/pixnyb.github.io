@@ -8,7 +8,7 @@ translations:
 seo:
   canonical: /nl/over/
   description: |
-    Ik ben een toegewijde DevOps/cloud engineer uit 's-Hertogenbosch met een passie voor cloud, DevOps en webapplicaties. Mijn ervaring omvat alle fasen van de ontwikkelingscyclus, van planning en ontwerp tot implementatie en onderhoud. Met een sterke basis in Computer Science van Avans Hogeschool, ben ik gespecialiseerd in technologieën zoals C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript en Docker. Toegewijd aan continue leren, streef ik ernaar innovatieve oplossingen te bieden die voldoen aan de behoeften van klanten en de efficiëntie van bedrijven verbeteren.
+    Ik ben een toegewijde DevOps/cloud engineer uit 's-Hertogenbosch met een passie voor cloud, DevOps en webapplicaties. Mijn ervaring omvat alle fasen van de ontwikkelingscyclus, van planning en ontwerp tot implementatie en onderhoud. Met een sterke basis in Computer Science van Avans Hogeschool, ben ik gespecialiseerd in technologieën zoals C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript, Docker en Kubernetes. Toegewijd aan continue leren, streef ik ernaar innovatieve oplossingen te bieden die voldoen aan de behoeften van klanten en de efficiëntie van bedrijven verbeteren.
 ---
 
 {% include image.liquid src="/assets/images/roel.png" alt="Een foto van Roël Couwenberg" class="half cover left border" height="18rem" %}
@@ -33,6 +33,7 @@ Mijn technische expertise omvat diverse programmeertalen en technieken, waardoor
 - **Flutter**: Ervaren in het ontwikkelen van cross-platform mobiele applicaties met Flutter, die soepel presteren op zowel iOS als Android, wat zorgt voor een breed bereik en tevreden gebruikers.
 - **TypeScript (TS) en JavaScript (JS)**: Vaardig in het schrijven van betrouwbare en onderhoudbare code met TypeScript en JavaScript, essentieel voor moderne webontwikkeling.
 - **Docker (Swarm)**: Proficient in het gebruik van Docker en Docker Swarm voor het containeriseren van applicaties en het efficiënt beheren van gedistribueerde systemen, wat resulteert in verbeterde schaalbaarheid en betrouwbaarheid.
+- **Kubernetes**: Bekend met het orkestreren van containerized applicaties met Kubernetes, wat de implementatie-efficiëntie en systeemresistentie verbetert.
 
 ## Professionele Ontwikkeling
 

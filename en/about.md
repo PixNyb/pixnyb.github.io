@@ -8,7 +8,7 @@ translations:
 seo:
   canonical: /en/about/
   description: |
-    I am a dedicated DevOps/cloud engineer from 's-Hertogenbosch with a passion for cloud, DevOps, and web applications. My journey includes extensive experience in the full development cycle, from planning and design to implementation and maintenance. With a strong foundation in Computer Science from Avans University, I specialize in technologies like C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript, and Docker. Committed to continuous learning, I aim to deliver innovative solutions that meet client needs and enhance business efficiency.
+    I am a dedicated DevOps/cloud engineer from 's-Hertogenbosch with a passion for cloud, DevOps, and web applications. My journey includes extensive experience in the full development cycle, from planning and design to implementation and maintenance. With a strong foundation in Computer Science from Avans University, I specialize in technologies like C#, F#, PHP (Symfony), React, Angular, Flutter, TypeScript, JavaScript, Docker and Kubernetes. Committed to continuous learning, I aim to deliver innovative solutions that meet client needs and enhance business efficiency.
 ---
 
 {% include image.liquid src="/assets/images/roel.png" alt="A photo of Roël Couwenberg" class="half cover left border" height="18rem" %}
@@ -33,6 +33,7 @@ My technical expertise encompasses various programming languages and techniques,
 - **Flutter**: Experienced in developing cross-platform mobile applications with Flutter, performing smoothly on both iOS and Android, ensuring broad reach and user satisfaction.
 - **TypeScript (TS) and JavaScript (JS)**: Skilled in writing reliable and maintainable code with TypeScript and JavaScript, essential for modern web development.
 - **Docker (Swarm)**: Proficient in using Docker and Docker Swarm for containerizing applications and efficiently managing distributed systems, resulting in improved scalability and reliability.
+- **Kubernetes**: Knowledgeable in orchestrating containerized applications with Kubernetes, enhancing deployment efficiency and system resilience.
 
 ## Professional Development
 
