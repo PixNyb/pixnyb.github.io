@@ -25,9 +25,6 @@ Ik verzamel geen persoonlijke informatie van mijn gebruikers, tenzij u deze vrij
 ### Niet-persoonlijke informatie
 Wanneer u mijn website bezoekt, kan ik niet-persoonlijke informatie over uw bezoek verzamelen, zoals uw IP-adres, browsertype, verwijzende/afsluitende pagina's en de datum en tijd van uw bezoek. Deze informatie wordt gebruikt om trends te analyseren, de site te beheren, gebruikersbewegingen te volgen en demografische informatie te verzamelen.
 
-### Google Analytics
-Ik gebruik Google Analytics om informatie te verzamelen en te analyseren over het gebruik van mijn website. Google Analytics verzamelt informatie zoals hoe vaak gebruikers de site bezoeken, welke pagina's ze bezoeken en welke andere sites ze hebben gebruikt voordat ze op mijn site kwamen. Deze informatie helpt me te begrijpen hoe bezoekers omgaan met mijn website en de functionaliteit ervan te verbeteren. Google Analytics verzamelt alleen het IP-adres dat aan u is toegewezen op de datum dat u mijn site bezoekt, in plaats van uw naam of andere identificerende informatie. Ik combineer de via Google Analytics verzamelde informatie niet met persoonlijk identificeerbare informatie.
-
 <button onclick="document.cookie = 'cookie-consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'; location.reload();">Opnieuw instellen</button>
 
 ## Hoe ik uw informatie gebruik
@@ -43,17 +40,9 @@ Niet-persoonlijke informatie wordt gebruikt om:
 - Gebruik en trends te monitoren en analyseren om de functionaliteit en gebruikerservaring van mijn website te verbeteren.
 - De veiligheid en integriteit van mijn website te waarborgen.
 
-### Google Analytics
-De door Google Analytics verzamelde informatie wordt gebruikt om:
-- Te begrijpen hoe bezoekers mijn website gebruiken en de prestaties van de website te volgen.
-- Trends en patronen in gebruikersgedrag te identificeren om de functionaliteit van de website te verbeteren.
-- Geaggregeerde rapporten over website-activiteit te genereren om de gebruikerservaring te verbeteren.
-
 ## Gegevensdeling en openbaarmaking
 
 Ik verkoop, verhandel of geef uw persoonlijke informatie niet door aan externe partijen. Ik kan uw informatie alleen delen als dit wettelijk verplicht is of om mijn rechten te beschermen.
-
-Google Analytics-gegevens worden gedeeld met Google in overeenstemming met het privacybeleid van Google. Google kan de verzamelde gegevens gebruiken om advertenties in zijn eigen advertentienetwerk te contextualiseren en te personaliseren.
 
 ## Gegevensbeveiliging
 

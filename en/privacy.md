@@ -25,9 +25,6 @@ I do not collect any personal information from my users unless you voluntarily p
 ### Non-Personal Information
 When you visit my website, I may collect non-personal information about your visit, such as your IP address, browser type, referring/exit pages, and the date and time of your visit. This information is used to analyze trends, administer the site, track user movements, and gather demographic information.
 
-### Google Analytics
-I use Google Analytics to collect and analyze information about the use of my website. Google Analytics collects information such as how often users visit the site, what pages they visit, and what other sites they used prior to coming to my site. This information helps me understand how visitors engage with my website and improve its functionality. Google Analytics collects only the IP address assigned to you on the date you visit my site, rather than your name or other identifying information. I do not combine the information collected through the use of Google Analytics with personally identifiable information.
-
 <button onclick="document.cookie = 'cookie-consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'; location.reload();">Reset preferences</button>
 
 ## How I Use Your Information
@@ -43,17 +40,9 @@ Non-personal information is used to:
 - Monitor and analyze usage and trends to improve the functionality and user experience of my website.
 - Ensure the security and integrity of my website.
 
-### Google Analytics
-Information collected by Google Analytics is used to:
-- Understand how visitors use my website and track website performance.
-- Identify trends and patterns in user behavior to enhance website functionality.
-- Generate aggregated reports on website activity to improve the user experience.
-
 ## Data Sharing and Disclosure
 
 I do not sell, trade, or otherwise transfer your personal information to outside parties. I may share your information only if required by law or to protect my rights.
-
-Google Analytics data is shared with Google in accordance with Google's privacy policy. Google may use the data collected to contextualize and personalize the ads of its own advertising network.
 
 ## Data Security
 
