@@ -2,6 +2,10 @@ const clientSettings = {
   analytics: false, // Temporarily disable analytics before move to self-hosted analytics solution
 }
 
+const headings = document.querySelectorAll(
+  "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]",
+);
+
 function createHeadingIcon() {
   const icon = document.createElement("span");
   icon.classList.add("link-icon");
@@ -17,10 +21,6 @@ function createCopyIcon() {
 }
 
 function copyLinkToClipboard() {
-  const headings = document.querySelectorAll(
-    "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]",
-  );
-
   headings.forEach((heading) => {
     const icon = createHeadingIcon();
     heading.appendChild(icon);
@@ -56,7 +56,6 @@ function copyCodeToClipboard() {
 
 function highlightActiveHeading() {
   const tocLinks = document.querySelectorAll(".toc-link");
-  const headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
   const offset = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize);
 
   window.addEventListener("scroll", () => {

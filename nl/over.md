@@ -19,7 +19,7 @@ Ik ben Roël Couwenberg, een leergierige en gemotiveerde DevOps/cloud engineer u
 
 ## Opleiding
 
-Ik heb de opleiding Informatica gevolgd aan Avans Hogeschool in 's-Hertogenbosch. Deze opleiding heeft me een sterke basis gegeven in softwareontwikkeling, algoritmen, en systeemarchitectuur. Door de praktijkgerichte aanpak van de opleiding heb ik waardevolle ervaring opgedaan met real-world projecten en ben ik goed voorbereid op de uitdagingen van de IT-industrie.
+Ik heb de HBO Bachelor Informatica gevolgd aan Avans Hogeschool in 's-Hertogenbosch. Deze opleiding heeft me een sterke basis gegeven in softwareontwikkeling, algoritmen, en systeemarchitectuur. Door de praktijkgerichte aanpak van de opleiding heb ik waardevolle ervaring opgedaan met real-world projecten en ben ik goed voorbereid op de uitdagingen van de IT-industrie.
 
 ## Expertise en Vaardigheden
 
