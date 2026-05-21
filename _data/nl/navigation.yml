@@ -20,6 +20,9 @@ social_nav:
     url: mailto:contact@roelc.me
     icon: fas fa-paper-plane
   - divider: true
+  - title: Forgejo
+    url: https://git.roelc.dev/explore/repos
+    icon: fab fa-forgejo
   - title: GitHub
     url: https://github.com/pixnyb
     icon: fab fa-github
@@ -27,9 +30,6 @@ social_nav:
     url: https://hub.docker.com/u/pixnyb
     icon: fab fa-docker
   - divider: true
-  - title: Instagram
-    url: https://www.instagram.com/roelc.me
-    icon: fab fa-instagram
   - title: LinkedIn
     url: https://www.linkedin.com/in/roël-couwenberg
     icon: fab fa-linkedin
